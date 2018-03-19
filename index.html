@@ -320,7 +320,7 @@
         <div class="mdl-layout__tab-panel" id="culture">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
-              <h4>Culture</h4><p/>
+              <h4>Culture Advice</h4><p/>
 
               <div class="demo-container mdl-grid">
                 <div>
@@ -368,8 +368,55 @@
 
             </div>
           </div>
+          <br/>
+          <div class="demo-container mdl-grid">
+            <div>
+          Original Question
+          <p>
+          <b>Does the customer know the team members and interact with them each week?</b></p>
+          <p>
+          Your Answer: N</p>
+          </div>
+          <div class="demo-options mdl-card mdl-color--light-blue-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
 
+          <div class="mdl-card__supporting-text mdl-color-text--black">
+          <h4> Why is this important?</h4>
+          <b>Often time customer interaction is a key predictor of success. In agile environments we value "customer collaboration over contract negotiation". </b> Using an agile approach in practice, you experience a partnership between the customer and development team in which discovery, questioning, learning, and adjusting during the course of the project are routine, acceptable, and systematic.
 
+On an agile project, customer review is built into the process and the customer gets to see the product at the end of every sprint. You can create the highest-priority features first, which gives you the opportunity to ensure maximum value early on, when little of the customer’s resources has been invested.
+          <p/><p/>
+          <h4>Let's Pratice!</h4>
+          <b>Try these self-reflections:</b>
+            <ul style="list-style-type:none">
+              <li>
+                <label for="chkbox1" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                  <input type="checkbox" id="chkbox1" class="mdl-checkbox__input">
+                  <span class="mdl-checkbox__label">Do you have a Product Owner or similar?</span>
+                </label>
+              </li>
+              <li>
+                <label for="chkbox2" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                  <input type="checkbox" id="chkbox2" class="mdl-checkbox__input">
+                  <span class="mdl-checkbox__label">Do you demo to your customer?</span>
+                </label>
+              </li>
+              <li>
+                <label for="chkbox3" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                  <input type="checkbox" id="chkbox3" class="mdl-checkbox__input">
+                  <span class="mdl-checkbox__label">Are there business value metrics (OKRs, KPIs, etc.)?</span>
+                </label>
+              </li>
+              <li>
+                <label for="chkbox4" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                  <input type="checkbox" id="chkbox4" class="mdl-checkbox__input">
+                  <span class="mdl-checkbox__label">Does your team feel empowered?</span>
+                </label>
+              </li>
+            </ul>
+          </div>
+
+          </div>
+          </div>
               <b>Ensure the entire team understands the software lifecycle. </b> Your team needs to understand the overall lifecycle of the application, and which part of the lifecycle the application is currently in. This helps all team members know what they should be doing now, and what they should be planning and preparing for in the future.
               <p/>
               <b>Reduce cycle time. </b>Aim to minimize the time it takes to move from ideas to usable developed software. Limit the size and scope of individual releases to keep the test burden low. Automate the build, test, configuration, and deployment processes whenever possible. Clear any obstacles to communication among developers, and between developers and operations.
@@ -393,7 +440,7 @@
       <div class="mdl-layout__tab-panel" id="development">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
-              <h4>Development</h4><p/>
+              <h4>Development Advice</h4><p/>
         <b>Provide developers with production-like environments. </b>If development and test environments don't match the production environment, it is hard to test and diagnose problems. Therefore, keep development and test environments as close to the production environment as possible. Make sure that test data is consistent with the data used in production, even if it's sample data and not real production data (for privacy or compliance reasons). Plan to generate and anonymize sample test data.
         <p/>
         <b>Ensure that all authorized team members can provision infrastructure and deploy the application.</b> Setting up production-like resources and deploying the application should not involve complicated manual tasks or detailed technical knowledge of the system. Anyone with the right permissions should be able to create or deploy production-like resources without going to the operations team.
@@ -413,7 +460,7 @@
         <div class="mdl-layout__tab-panel" id="testing">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
-              <h4>Testing</h4><p/>
+              <h4>Testing Advice</h4><p/>
         <b>Automate testing. </b>Manually testing software is tedious and susceptible to error. Automate common testing tasks and integrate the tests into your build processes. Automated testing ensures consistent test coverage and reproducibility. Integrated UI tests should also be performed by an automated tool. Azure offers development and test resources that can help you configure and execute testing. For more information, see Development and test.
 
 
@@ -440,7 +487,7 @@
           <div class="mdl-layout__tab-panel" id="deployment">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
-              <h4>Deployment</h4><p/>
+              <h4>Deployment Advice</h4><p/>
               <p><strong>Automate deployments.</strong>&nbsp;Automate deploying the application to test, staging, and production environments. Automation enables faster and more reliable deployments, and ensures consistent deployments to any supported environment. It removes the risk of human error caused by manual deployments. It also makes it easy to schedule releases for convenient times, to minimize any effects of potential downtime.</p>
               <p><strong>Use continuous integration.</strong>&nbsp;Continuous integration (CI) is the practice of merging all developer code into a central codebase on a regular schedule, and then automatically performing standard build and test processes. CI ensures that an entire team can work on a codebase at the same time without having conflicts. It also ensures that code defects are found as early as possible. Preferably, the CI process should run every time that code is committed or checked in. At the very least, it should run once per day.</p>
               <blockquote>
@@ -468,7 +515,10 @@
                     <div class="mdl-layout__tab-panel" id="expert">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
-              <h4>Expert</h4><p/>
+              <h4>Expert Advice</h4>
+              <p/>
+              <h5>So you scored a perfect score....but that doesn't mean you're done.
+                In addition to sharing your story with others and helping build the community around DevSecOps in the USG there are other things you can do that are more bleeding-edge. Here are some additional practices to try at your own pace to help you attain higher levels of DevSecOps, continuous learning and impact for your team and oragnization.</h5>
               <iframe src="https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1waDG0_W3-yNiAaUfxcZhTKvl7AUCgXwQw8mdPjCz86U%2Fedit" height="500">  <p>Your browser does not support iframes.</p>
 </iframe>
 <p><strong>Automate operations tasks.</strong>&nbsp;Manually handling repetitive operations processes is error-prone. Automate these tasks whenever possible to ensure consistent execution and quality. Code that implements the automation should be versioned in source control. As with any other code, automation tools must be tested.</p>
@@ -493,7 +543,7 @@
                     <div class="mdl-layout__tab-panel" id="recovery">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
-              <h4>Recovery</h4><p/>
+              <h4>Recovery Advice</h4><p/>
           <p><strong>Make systems observable.</strong>&nbsp;The operations team should always have clear visibility into the health and status of a system or service. Set up external health endpoints to monitor status, and ensure that applications are coded to instrument the operations metrics. Use a common and consistent schema that lets you correlate events across systems.&nbsp;<a href="https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/azure-diagnostics" data-linktype="absolute-path">Azure Diagnostics</a>&nbsp;and&nbsp;<a href="https://docs.microsoft.com/en-us/azure/application-insights/" data-linktype="absolute-path">Application Insights</a>&nbsp;are the standard method of tracking the health and status of Azure resources. Microsoft&nbsp;<a href="https://www.microsoft.com/cloud-platform/operations-management-suite" data-linktype="external">Operation Management Suite</a>&nbsp;also provides centralized monitoring and management for cloud or hybrid solutions.</p>
           <p><strong>Aggregate and correlate logs and metrics</strong>. A properly instrumented telemetry system will provide a large amount of raw performance data and event logs. Make sure that telemetry and log data is processed and correlated in a short period of time, so that operations staff always have an up-to-date picture of system health. Organize and display data in ways that give a cohesive view of any issues, so that whenever possible it's clear when events are related to one another.</p>
           <blockquote>
@@ -526,7 +576,7 @@
           <div class="mdl-layout__tab-panel" id="security">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
-              <h4>Security</h4><p/>
+              <h4>Security Advice</h4><p/>
 <p><strong>Implement application-level protection against distributed denial of service (DDoS) attacks.</strong>&nbsp;Azure services are protected against DDos attacks at the network layer. However, Azure cannot protect against application-layer attacks, because it is difficult to distinguish between true user requests from malicious user requests. For more information on how to protect against application-layer DDoS attacks, see the "Protecting against DDoS" section of&nbsp;<a href="http://download.microsoft.com/download/C/A/3/CA3FC5C0-ECE0-4F87-BF4B-D74064A00846/AzureNetworkSecurity_v3_Feb2015.pdf" data-linktype="external">Microsoft Azure Network Security</a>&nbsp;(PDF download).</p>
 <p><strong>Implement the principle of least privilege for access to the application's resources.</strong>&nbsp;The default for access to the application's resources should be as restrictive as possible. Grant higher level permissions on an approval basis. Granting overly permissive access to your application's resources by default can result in someone purposely or accidentally deleting resources. Azure provides&nbsp;<a href="https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-built-in-roles/" data-linktype="absolute-path">role-based access control</a>&nbsp;to manage user privileges, but it's important to verify least privilege permissions for other resources that have their own permissions systems such as SQL Server.</p>
               </div>
@@ -535,7 +585,7 @@
           <div class="mdl-layout__tab-panel" id="datamgmt">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
-              <h4>Data Management</h4><p/>
+              <h4>Data Management Advice</h4><p/>
               <p><strong>Geo-replicate data in Azure Storage</strong>. Data in Azure Storage is automatically replicated within in a datacenter. For even higher availability, use Read-access geo-redundant storage (-RAGRS), which replicates your data to a secondary region and provides read-only access to the data in the secondary location. The data is durable even in the case of a complete regional outage or a disaster. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/azure/storage/storage-redundancy" data-linktype="absolute-path">Azure Storage replication</a>.</p>
 <p><strong>Geo-replicate databases</strong>. Azure SQL Database and Cosmos DB both support geo-replication, which enables you to configure secondary database replicas in other regions. Secondary databases are available for querying and for failover in the case of a data center outage or the inability to connect to the primary database. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/azure/sql-database/sql-database-geo-replication-overview" data-linktype="absolute-path">Failover groups and active geo-replication</a>&nbsp;(SQL Database) and&nbsp;<a href="https://docs.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally" data-linktype="absolute-path">How to distribute data globally with Azure Cosmos DB</a>.</p>
 <p><strong>Use optimistic concurrency and eventual consistency</strong>. Transactions that block access to resources through locking (pessimistic concurrency) can cause poor performance and considerably reduce availability. These problems can become especially acute in distributed systems. In many cases, careful design and techniques such as partitioning can minimize the chances of conflicting updates occurring. Where data is replicated, or is read from a separately updated store, the data will only be eventually consistent. But the advantages usually far outweigh the impact on availability of using transactions to ensure immediate consistency.</p>
