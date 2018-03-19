@@ -60,13 +60,13 @@
      <link rel="stylesheet" type="text/css" href="  https://printjs-4de6.kxcdn.com/print.min.css">
 
     <style>
-      
-      
+
+
       .legend {
         font-family: "Raleway", sans-serif;
         fill: #333333;
       }
-      
+
       .tooltip {
         fill: #333333;
       }
@@ -81,7 +81,7 @@
       z-index: 900;
     }
     </style>
-    
+
   </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
 
@@ -113,10 +113,10 @@
       <main class="mdl-layout__content">
 
         <div class="mdl-layout__tab-panel is-active" id="overview">
-         
+
        <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
-              
+
 <iframe class="mmCardVid" src="https://www.youtube.com/embed/chT4DEYUmW8?start=401&showinfo=0" allowfullscreen></iframe>
 
             </header>
@@ -127,28 +127,28 @@
               </div>
 
             </div>
-            
+
           </section>
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
 
                 <div class="radarChart"></div>
-                <script src="radarChart.js"></script> 
+                <script src="radarChart.js"></script>
                 <script>
-                  
+
                   /* Radar chart design created by Nadieh Bremer - VisualCinnamon.com */
-                  
-                  ////////////////////////////////////////////////////////////// 
-                  //////////////////////// Set-Up ////////////////////////////// 
-                  ////////////////////////////////////////////////////////////// 
+
+                  //////////////////////////////////////////////////////////////
+                  //////////////////////// Set-Up //////////////////////////////
+                  //////////////////////////////////////////////////////////////
 
                   var margin = {top: 100, right: 100, bottom: 100, left: 100},
                     width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
                     height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
-                      
-                  ////////////////////////////////////////////////////////////// 
-                  ////////////////////////// Data ////////////////////////////// 
-                  ////////////////////////////////////////////////////////////// 
+
+                  //////////////////////////////////////////////////////////////
+                  ////////////////////////// Data //////////////////////////////
+                  //////////////////////////////////////////////////////////////
 
                   var data = [
                         [//iPhone
@@ -174,13 +174,13 @@
                         {axis:"Security",value:0.84},
                         ]
                       ];
-                  ////////////////////////////////////////////////////////////// 
-                  //////////////////// Draw the Chart ////////////////////////// 
-                  ////////////////////////////////////////////////////////////// 
+                  //////////////////////////////////////////////////////////////
+                  //////////////////// Draw the Chart //////////////////////////
+                  //////////////////////////////////////////////////////////////
 
                   var color = d3.scale.ordinal()
                     .range(["#EDC951","#CC333F","#00A0B0"]);
-                    
+
                   var radarChartOptions = {
                     w: width,
                     h: height,
@@ -243,7 +243,7 @@
                 </div>
                 <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
                   <h4>Expert</h4>
-                  
+
                   <b>Technology drives culture</b>
                   <p/>
                   We see DevOps as a lifecycle with each phase flowing into the other to break down silos and inform key stakeholders along the way. You plan the work, then build it, continuously integrate it, deploy it, finally support the end product and provide feedback back into the system.
@@ -253,7 +253,7 @@
                   Learn more about our other practices related <a href="#">here</a>.
                 </div>
               </div>
-              
+
             </div>
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn2">
               <i class="material-icons">more_vert</i>
@@ -268,9 +268,9 @@
             <div class="mdl-card mdl-cell mdl-cell--12-col">
               <div class="mdl-card__supporting-text">
                 <h4>How did we come up with this?</h4>
-                
-                <p/> 
-                If you're already planning your DevOps journey, surely you've been inspired by success stories like Flickr, Netflix, and Etsy. In the best cases, those stories describe where they started, how long it took them, and how things changed. However, following those examples is hard because the journey is so unfamiliar. A common problem is the journey is described as one big leap, where all the invest is characterized as "culture change" and all the DevOps benefits are lumped together. Fortunately, we can use an adaptation of the agile fluency model to help break apart some discrete steps. 
+
+                <p/>
+                If you're already planning your DevOps journey, surely you've been inspired by success stories like Flickr, Netflix, and Etsy. In the best cases, those stories describe where they started, how long it took them, and how things changed. However, following those examples is hard because the journey is so unfamiliar. A common problem is the journey is described as one big leap, where all the invest is characterized as "culture change" and all the DevOps benefits are lumped together. Fortunately, we can use an adaptation of the agile fluency model to help break apart some discrete steps.
 
                 The reality is: there are some distinct stages, each with different benefits and different kinds of investment.
                 <p/>
@@ -280,6 +280,8 @@
                   <li>Automate, as a team</li>
                   <li>Measure business value</li>
                   <li>Optimize for the whole </li>
+
+                <img src="images/devsecops-triangle.png"/>
                 </ul>
               </div>
               <div class="mdl-card__actions">
@@ -359,10 +361,10 @@
                   </li>
                 </ul>
               </div>
- 
+
             </div>
           </div>
-      
+
 
               <b>Ensure the entire team understands the software lifecycle. </b> Your team needs to understand the overall lifecycle of the application, and which part of the lifecycle the application is currently in. This helps all team members know what they should be doing now, and what they should be planning and preparing for in the future.
               <p/>
@@ -375,7 +377,7 @@
               <b>Learn from failures. </b>Failures are inevitable, but it's important to learn from failures to avoid repeating them. If an operational failure occurs, triage the issue, document the cause and solution, and share any lessons that were learned. Whenever possible, update your build processes to automatically detect that kind of failure in the future.
               <p/>
               <b>Optimize for speed and collect data. </b>Every planned improvement is a hypothesis. Work in the smallest increments possible. Treat new ideas as experiments. Instrument the experiments so that you can collect production data to assess their effectiveness. Be prepared to fail fast if the hypothesis is wrong.
-              <p/> 
+              <p/>
               <b>Allow time for learning.</b> Both failures and successes provide good opportunities for learning. Before moving on to new projects, allow enough time to gather the important lessons, and make sure those lessons are absorbed by your team. Also give the team the time to build skills, experiment, and learn about new tools and techniques.
               <p/>
               <b> Document operations.</b> Document all tools, processes, and automated tasks with the same level of quality as your product code. Document the current design and architecture of any systems you support, along with recovery processes and other maintenance procedures. Focus on the steps you actually perform, not theoretically optimal processes. Regularly review and update the documentation. For code, make sure that meaningful comments are included, especially in public APIs, and use tools to automatically generate code documentation whenever possible.
@@ -391,7 +393,7 @@
         <b>Provide developers with production-like environments. </b>If development and test environments don't match the production environment, it is hard to test and diagnose problems. Therefore, keep development and test environments as close to the production environment as possible. Make sure that test data is consistent with the data used in production, even if it's sample data and not real production data (for privacy or compliance reasons). Plan to generate and anonymize sample test data.
         <p/>
         <b>Ensure that all authorized team members can provision infrastructure and deploy the application.</b> Setting up production-like resources and deploying the application should not involve complicated manual tasks or detailed technical knowledge of the system. Anyone with the right permissions should be able to create or deploy production-like resources without going to the operations team.
-        
+
         <blockquote>
         This recommendation doesn't imply that anyone can push live updates to the production deployment. It's about reducing friction for the development and QA teams to create production-like environments.
         </blockquote>
@@ -413,7 +415,7 @@
 
         <p/>
         <b>Test for failures.</b> If a system can't connect to a service, how does it respond? Can it recover once the service is available again? Make fault injection testing a standard part of review on test and staging environments. When your test process and practices are mature, consider running these tests in production.
-       
+
         <p/>
         <b>Test in production.  </b>The release process doesn't end with deployment to production. Have tests in place to ensure that deployed code works as expected. For deployments that are infrequently updated, schedule production testing as a regular part of maintenance.
         <p/>
@@ -704,7 +706,7 @@
               USG(C)
             </div>
             <ul class="mdl-mega-footer--link-list" text-color="white">
-              <li><a href="#privacy" >Privacy and Terms</a></li>
+              <li><a href="#privacy" onclick="_target">Privacy and Terms</a></li>
             </ul>
           </div>
         </footer>
