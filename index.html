@@ -102,14 +102,17 @@
           <a href="#deployment" class="mdl-layout__tab">Deployment</a>
           <a href="#security" class="mdl-layout__tab">Security</a>
           <a href="#recovery" class="mdl-layout__tab">Recovery</a>
-                    <a href="#datamgmt" class="mdl-layout__tab">Data mgmt</a>
-          <a href="#expert" class="mdl-layout__tab">Expert</a>
-          <a href="#privacy" class="mdl-layout__tab">Privacy</a>
+          <a href="#datamgmt" class="mdl-layout__tab">Data mgmt</a>
+          <a href="#privacy" class="mdl-layout__tab">Micro services</a>
+          <a href="#privacy" class="mdl-layout__tab">User Centered</a>
+          <a href="#expert" class="mdl-layout__tab">mastery</a>
+          <a href="#privacy" class="mdl-layout__tab"></a>
 
-          <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="add">
+
+          <!-- <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="add">
             <i class="material-icons" role="presentation">add</i>
             <span class="visuallyhidden">Add</span>
-          </button>
+          </button> -->
         </div>
       </header>
       <main class="mdl-layout__content">
@@ -125,7 +128,7 @@
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text">
                 <h4>Welcome</h4>
-              The results of your assessment are below. We offer a detailed visuzliation to help you dive deeper in to your DevSecOps journey followed by insights and recommendations to help your team own the change and find points of reflection. Also we offer a downloadable "assessment card" that captures next steps and focus areas. If you want additional help or just someone to talk to, find our contact a coach button.
+              The results of your assessment are below. We offer a detailed visualization to help you dive deeper in to your DevSecOps journey followed by insights and recommendations to help your team own the change and find points of reflection. Also we offer a PDF "assessment card" that captures next steps and focus areas. If you want additional help or just someone to talk to, find our contact a coach button.
               </div>
 
             </div>
@@ -133,8 +136,8 @@
           </section>
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
-
-                <div class="radarChart"></div>
+                <h4>&nbsp&nbsp&nbspAssessment Dimensions</h4>
+                <div class="radarChart" style="margin-left: 100px;"></div>
                 <script src="radarChart.js"></script>
                 <script>
 
@@ -153,21 +156,21 @@
                   //////////////////////////////////////////////////////////////
 
                   var data = [
-                        [//iPhone
+                        [//Session 1
                         {axis:"Culture",value:0.32},
                         {axis:"Development",value:0.68},
                         {axis:"Testing",value:0.89},
                         {axis:"Deployment",value:0.47},
                         {axis:"Recovery",value:0.22},
                         {axis:"Security",value:0.02},
-                        ],[//Samsung
+                        ],[//Session 2
                         {axis:"Culture",value:0.57},
                         {axis:"Development",value:0.66},
                         {axis:"Testing",value:0.75},
                         {axis:"Deployment",value:0.83},
                         {axis:"Recovery",value:0.40},
                         {axis:"Security",value:0.93},
-                        ],[//Nokia Smartphone
+                        ],[//Session 3
                         {axis:"Culture",value:0.96},
                         {axis:"Development",value:0.30},
                         {axis:"Testing",value:0.40},
@@ -204,41 +207,48 @@
                   <h4>Beginner</h4>
                   <b>People and culture first</b>
                   <p/>
-                  The first step in moving to DevOps is to pull from agile principles - people first, then process and tools.
-
-                  Culture is the foundation on which every successful team is built and is a core ingredient of a DevOps implementation. A DevOps culture brings a sense of shared responsibility across teams, yields faster time to market and faster resolution times, and helps mitigate unplanned work.
-
-                  One small but impactful way to initiate culture change is to run workshops that identify areas of improvement between your dev & ops teams. To help, we've built a DevOps playbook.
+                  The first step in moving to DevSecOps is to pull from agile principles - people first, then process and tools.
+                  <br/>  <br/>
+                  Culture is the foundation on which every successful team is built and is a core ingredient of a DevSecOps implementation. A DevSecOps culture brings a sense of shared responsibility across teams, yields faster time to market and faster resolution times, and helps mitigate unplanned work.
+                  <br/>  <br/>
+                  One small but impactful way to initiate culture change is to run workshops that identify areas of improvement between your dev & ops teams. 
+                  <br/>  <br/>
+                   These foundational steps will help you look at the three ways of DevSecOps - flow, amplify feedback, and continuous learning and experimentation - each phase flows into the other to break down silos and inform key stakeholders.
                    <p/>
-                  Learn more about our other practices related <a href="#">here</a>.
+                   To help, we've built a DevSecOps Wiki with a Team Health Assessment. Also we run monthly sessions in the DevOps CoP to help your teams learn the latest and greatest tools, techniques and strategies for achieving higher performance.
+                   <p/>
+                  Check out our wiki <a href="#">here</a>.
                 </div>
                 <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
                   <div class="section__circle-container__circle mdl-color--primary"></div>
                 </div>
                 <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
                   <h4>Intermediate</h4>
-                  <b>Go lean with Agile & Git</b>
-                  <p/>
-                  In looking at the three ways of DevOps - flow, amplify feedback, and continuous learning and experimentation - each phase flows into the other to break down silos and inform key stakeholders.
-
-                  To master 'flow' teams need to make work visible across all teams, limit work in progress, and reduce handoffs to start thinking as a system, not a silo. One way to start approaching 'flow' is through practices like agile. Find out more here.
-
-                  Another way to master 'flow' is by moving to distributed version control systems (DVCS) like Git, which is all about quick iterations, branching and merging - all things you need in a lean DevOps environment.
+                  <b>Create a Delivery system</b>
+                  <br/><br/>
+                 
+                  To master 'flow' teams need to make work visible across all teams, limit work in progress, and reduce hand-offs to start thinking as a system, not a silo. One way to start approaching 'flow' is through practices like agile. 
+                  <br/>
+                  <br/>
+                  Another way to master 'flow' is by moving to distributed version control systems (DVCS) like Git, which is all about quick iterations, branching and merging - all things you need in a lean DevSecOps environment.
                    <p/>
-                  Learn more about our other practices related <a href="#">here</a>.
+                  Check out our wiki <a href="#">here</a>.
                 </div>
                 <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
                   <div class="section__circle-container__circle mdl-color--primary"></div>
                 </div>
                 <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
                   <h4>Advanced</h4>
-                  <b>Amplify feedback for faster resolution</b>
-                 <p/>
-                  In looking at the three ways of DevOps - flow, amplify feedback, and continuous learning and experimentation - each phase flows into the other to break down silos and inform key stakeholders.
+                  <b>Amplify feedback loops for faster resolution</b>
                   <br/>
-                  Amplifying feedback can help you catch failures before they make it downstream, and accelerate your time to resolution. One easy way to speed up feedback is by automating notifications so that teams are alerted to incidents or bugs when they happen. See how Atlassian's Site Reliability Engineers do incident management and practice ChatOps for conversation-driven development.
+                  <br/>
+                  Amplifying feedback can help you catch failures before they make it downstream, and accelerate your time to resolution. One easy way to speed up feedback is by automating notifications so that teams are alerted to incidents or bugs when they happen. 
+
+                  <br/>
+                  <br/>
+                  See how our Site Reliability Engineers do incident management and practice ChatOps for conversation-driven development.
                    <p/>
-                  Learn more about our other practices related <a href="#">here</a>.
+                  Check out our wiki <a href="#">here</a>.
                 </div>
                 <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
                   <div class="section__circle-container__circle mdl-color--primary"></div>
@@ -246,13 +256,19 @@
                 <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
                   <h4>Expert</h4>
 
-                  <b>Technology drives culture</b>
-                  <p/>
-                  We see DevOps as a lifecycle with each phase flowing into the other to break down silos and inform key stakeholders along the way. You plan the work, then build it, continuously integrate it, deploy it, finally support the end product and provide feedback back into the system.
+                  <b>Continuous Learning</b>
+                  <p/><br/>
+                  <br/>
+                  We see DevSecOps as a life-cycle with each phase flowing into the other to break down silos and inform key stakeholders along the way. You plan the work, then build it, continuously integrate it, deploy it, finally support the end product and provide feedback back into the system.
+                  <br/>
+                  <br/>
+                  The tools and technology your teams use can drive better automation and collaboration between teams. 
+                  <br/>
+                  <br/>
+                  At this stage you should be sharing your journey and lessons at the monthly DevOps CoP. Also collaborating with other teams to explore new practices or exploring new techniques in our Mastery section above to find bleeding-edge practices in play across our organization.          
 
-                  The tools and technology your teams use can drive better automation and collaboration between teams. We've put together a list of some we use - check it out.
                    <p/>
-                  Learn more about our other practices related <a href="#">here</a>.
+                  Check out our wiki <a href="#">here</a>.
                 </div>
               </div>
 
@@ -272,11 +288,12 @@
                 <h4>How did we come up with this?</h4>
 
                 <p/>
-                If you're already planning your DevOps journey, surely you've been inspired by success stories like Flickr, Netflix, and Etsy. In the best cases, those stories describe where they started, how long it took them, and how things changed. However, following those examples is hard because the journey is so unfamiliar. A common problem is the journey is described as one big leap, where all the invest is characterized as "culture change" and all the DevOps benefits are lumped together. Fortunately, we can use an adaptation of the agile fluency model to help break apart some discrete steps.
-
+                If you're already planning your DevSecOps journey, surely you've been inspired by success stories like Flickr, Netflix, and Etsy. In the best cases, those stories describe where they started, how long it took them, and how things changed. However, following those examples is hard because the journey is so unfamiliar. A common problem is the journey is described as one big leap, where all the invest is characterized as "culture change" and all the DevSecOps benefits are lumped together. Fortunately, we can use an adaptation of the agile fluency model to help break apart some discrete steps.
+                <br/>
+                <br/>
                 The reality is: there are some distinct stages, each with different benefits and different kinds of investment.
                 <p/>
-                Mapping agile fluency to DevOps, we propose four stages:
+                Mapping agile fluency to DevSecOps, we propose four stages:
 
                   <ul><li>Orient to value for your organization</li>
                   <li>Automate, as a team</li>
@@ -284,7 +301,7 @@
                   <li>Optimize for the whole </li>
                 </ul>
                 <br/>
-                Our coaches specialize in these domains to help you achieve maximum impact for your work.
+                Our coaches specialize in these domains to help you achieve maximum impact for your work.<br/><br/><br/>
                 <img src="images/devsecops-triangle.png" width="90%"/>
               </div>
               <div class="mdl-card__actions">
@@ -323,20 +340,18 @@
               <h4>Culture Advice</h4><p/>
 
               <div class="demo-container mdl-grid">
-                <div>
-          Original Question
+               <div class="demo-options mdl-card mdl-color--light-orange-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
+          <div class="mdl-card__supporting-text mdl-color-text--black">
+          <h4> Original Question</h4>
           <p>
           <b>Do team members reliably self-select and complete their work?</b></p>
-    <p>
+          <p>
           Your Answer: N</p>
-        </div>
-            <div class="demo-options mdl-card mdl-color--light-blue-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
-
-              <div class="mdl-card__supporting-text mdl-color-text--black">
+        
               <h4> Why is this important?</h4>
               <b>Using capacity driven sprint planning to drive self-selection and completion of work can ensure higher business alignment across teams and the organization. </b> Conflicts over resources, purpose, goals, and priorities within an organization can be a risk to successful operations. Ensure that the business, development, and operations teams are all aligned.
               <p/><p/>
-              <h4>Let's Pratice!</h4>
+              <h4>Let's Practice!</h4>
               <b>Try these self-reflections:</b>
                 <ul style="list-style-type:none">
                   <li>
@@ -370,22 +385,23 @@
           </div>
           <br/>
           <div class="demo-container mdl-grid">
-            <div>
-          Original Question
+          <div class="demo-options mdl-card mdl-color--light-blue-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
+          <div class="mdl-card__supporting-text mdl-color-text--black">
+
+          <h4>Original Question</h4>
           <p>
           <b>Does the customer know the team members and interact with them each week?</b></p>
           <p>
           Your Answer: N</p>
-          </div>
-          <div class="demo-options mdl-card mdl-color--light-blue-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
+         
+          
 
-          <div class="mdl-card__supporting-text mdl-color-text--black">
           <h4> Why is this important?</h4>
           <b>Often time customer interaction is a key predictor of success. In agile environments we value "customer collaboration over contract negotiation". </b> Using an agile approach in practice, you experience a partnership between the customer and development team in which discovery, questioning, learning, and adjusting during the course of the project are routine, acceptable, and systematic.
-
-On an agile project, customer review is built into the process and the customer gets to see the product at the end of every sprint. You can create the highest-priority features first, which gives you the opportunity to ensure maximum value early on, when little of the customer’s resources has been invested.
+          <br/><br/>
+          On an agile project, customer review is built into the process and the customer gets to see the product at the end of every sprint. You can create the highest-priority features first, which gives you the opportunity to ensure maximum value early on, when little of the customers resources has been invested.
           <p/><p/>
-          <h4>Let's Pratice!</h4>
+          <h4>Let's Practice!</h4>
           <b>Try these self-reflections:</b>
             <ul style="list-style-type:none">
               <li>
@@ -417,7 +433,9 @@ On an agile project, customer review is built into the process and the customer 
 
           </div>
           </div>
-              <b>Ensure the entire team understands the software lifecycle. </b> Your team needs to understand the overall lifecycle of the application, and which part of the lifecycle the application is currently in. This helps all team members know what they should be doing now, and what they should be planning and preparing for in the future.
+
+          <h4>Glossary of practices </h4>
+              <b>Ensure the entire team understands the software life-cycle. </b> Your team needs to understand the overall life-cycle of the application, and which part of the life-cycle the application is currently in. This helps all team members know what they should be doing now, and what they should be planning and preparing for in the future.
               <p/>
               <b>Reduce cycle time. </b>Aim to minimize the time it takes to move from ideas to usable developed software. Limit the size and scope of individual releases to keep the test burden low. Automate the build, test, configuration, and deployment processes whenever possible. Clear any obstacles to communication among developers, and between developers and operations.
               <p/>
@@ -441,6 +459,8 @@ On an agile project, customer review is built into the process and the customer 
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
               <h4>Development Advice</h4><p/>
+                  <em/>Great job! You scored highly on the use of advanced practices. Review the glossary below and checkout the Mastery section for more cutting-edge practices. </em>
+        <h4>Glossary of Practices</h4>      
         <b>Provide developers with production-like environments. </b>If development and test environments don't match the production environment, it is hard to test and diagnose problems. Therefore, keep development and test environments as close to the production environment as possible. Make sure that test data is consistent with the data used in production, even if it's sample data and not real production data (for privacy or compliance reasons). Plan to generate and anonymize sample test data.
         <p/>
         <b>Ensure that all authorized team members can provision infrastructure and deploy the application.</b> Setting up production-like resources and deploying the application should not involve complicated manual tasks or detailed technical knowledge of the system. Anyone with the right permissions should be able to create or deploy production-like resources without going to the operations team.
@@ -461,7 +481,9 @@ On an agile project, customer review is built into the process and the customer 
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
               <h4>Testing Advice</h4><p/>
-        <b>Automate testing. </b>Manually testing software is tedious and susceptible to error. Automate common testing tasks and integrate the tests into your build processes. Automated testing ensures consistent test coverage and reproducibility. Integrated UI tests should also be performed by an automated tool. Azure offers development and test resources that can help you configure and execute testing. For more information, see Development and test.
+                 <em/>Great job! You scored highly on the use of advanced practices. Review the glossary below and checkout the Mastery section for more cutting-edge practices. </em>
+        <h4> Glossary of Practices</h4>
+        <b>Automate testing. </b>Manually testing software is tedious and susceptible to error. Automate common testing tasks and integrate the tests into your build processes. Automated testing ensures consistent test coverage and reproducibility. Integrated UI tests should also be performed by an automated tool. OpenShift offers development and test resources that can help you configure and execute testing. For more information, see Development and test.
 
 
         <p/>
@@ -488,11 +510,13 @@ On an agile project, customer review is built into the process and the customer 
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
               <h4>Deployment Advice</h4><p/>
+                  <em/>Great job! You scored highly on the use of advanced practices. Review the glossary below and checkout the Mastery section for more cutting-edge practices. </em>
+              Great job! You scored highly on the use of advanced practices. Review the glossary below and checkout the Mastery section for more cutting-edge practices.
               <p><strong>Automate deployments.</strong>&nbsp;Automate deploying the application to test, staging, and production environments. Automation enables faster and more reliable deployments, and ensures consistent deployments to any supported environment. It removes the risk of human error caused by manual deployments. It also makes it easy to schedule releases for convenient times, to minimize any effects of potential downtime.</p>
               <p><strong>Use continuous integration.</strong>&nbsp;Continuous integration (CI) is the practice of merging all developer code into a central codebase on a regular schedule, and then automatically performing standard build and test processes. CI ensures that an entire team can work on a codebase at the same time without having conflicts. It also ensures that code defects are found as early as possible. Preferably, the CI process should run every time that code is committed or checked in. At the very least, it should run once per day.</p>
-              <blockquote>
-              <p>Consider adopting a&nbsp;<a href="https://trunkbaseddevelopment.com/" data-linktype="external">trunk based development model</a>. In this model, developers commit to a single branch (the trunk). There is a requirement that commits never break the build. This model facilitates CI, because all feature work is done in the trunk, and any merge conflicts are resolved when the commit happens.</p>
-              </blockquote>
+             
+              <p> <blockquote>Consider adopting a&nbsp;<a href="https://trunkbaseddevelopment.com/" data-linktype="external">trunk based development model</a>. In this model, developers commit to a single branch (the trunk). There is a requirement that commits never break the build. This model facilitates CI, because all feature work is done in the trunk, and any merge conflicts are resolved when the commit happens.</blockquote></p>
+              
               <p><strong>Consider using continuous delivery.</strong>&nbsp;Continuous delivery (CD) is the practice of ensuring that code is always ready to deploy, by automatically building, testing, and deploying code to production-like environments. Adding continuous delivery to create a full CI/CD pipeline will help you detect code defects as soon as possible, and ensures that properly tested updates can be released in a very short time.</p>
               <blockquote>
               <p>Continuous&nbsp;<em>deployment</em>&nbsp;is an additional process that automatically takes any updates that have passed through the CI/CD pipeline and deploys them into production. Continuous deployment requires robust automatic testing and advanced process planning, and may not be appropriate for all teams.</p>
@@ -501,7 +525,7 @@ On an agile project, customer review is built into the process and the customer 
               <p><strong>Control exposure to changes.</strong>&nbsp;Make sure you're in control of when updates are visible to your end users. Consider using feature toggles to control when features are enabled for end users.</p>
               <p><strong>Implement release management strategies to reduce deployment risk.</strong>&nbsp;Deploying an application update to production always entails some risk. To minimize this risk, use strategies such as&nbsp;<a href="https://martinfowler.com/bliki/CanaryRelease.html" data-linktype="external">canary releases</a>&nbsp;or&nbsp;<a href="https://martinfowler.com/bliki/BlueGreenDeployment.html" data-linktype="external">blue-green deployments</a>&nbsp;to deploy updates to a subset of users. Confirm the update works as expected, and then roll the update out to the rest of the system.</p>
               <p><strong>Document all changes.</strong>&nbsp;Minor updates and configuration changes can be a source of confusion and versioning conflict. Always keep a clear record of any changes, no matter how small. Log everything that changes, including patches applied, policy changes, and configuration changes. (Don't include sensitive data in these logs. For example, log that a credential was updated, and who made the change, but don't record the updated credentials.) The record of the changes should be visible to the entire team.</p>
-              <p><strong>Automate Deployments.</strong>&nbsp;Automate all deployments, and have systems in place to detect any problems during rollout. Have a mitigation process for preserving the existing code and data in production, before the update replaces them in all production instances. Have an automated way to roll forward fixes or roll back changes.</p>
+              <p><strong>Automate Deployments.</strong>&nbsp;Automate all deployments, and have systems in place to detect any problems during roll-out. Have a mitigation process for preserving the existing code and data in production, before the update replaces them in all production instances. Have an automated way to roll forward fixes or roll back changes.</p>
               <p><strong>Consider making infrastructure immutable.</strong>&nbsp;Immutable infrastructure is the principle that you shouldn&rsquo;t modify infrastructure after it&rsquo;s deployed to production. Otherwise, you can get into a state where ad hoc changes have been applied, making it hard to know exactly what changed. Immutable infrastructure works by replacing entire servers as part of any new deployment. This allows the code and the hosting environment to be tested and deployed as a block. Once deployed, infrastructure components aren't modified until the next build and deploy cycle.
 <p><strong>Document the release process for your application.</strong>&nbsp;Without detailed release process documentation, an operator might deploy a bad update or improperly configure settings for your application. Clearly define and document your release process, and ensure that it's available to the entire operations team.</p>
 <p><strong>Automate your application's deployment process.</strong>&nbsp;If your operations staff is required to manually deploy your application, human error can cause the deployment to fail.</p>
@@ -515,27 +539,27 @@ On an agile project, customer review is built into the process and the customer 
                     <div class="mdl-layout__tab-panel" id="expert">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
-              <h4>Expert Advice</h4>
+              <h4>So you want more...</h4>
               <p/>
-              <h5>So you scored a perfect score....but that doesn't mean you're done.
+              <h5>You scored a perfect score....but that doesn't mean you're done.
                 In addition to sharing your story with others and helping build the community around DevSecOps in the USG there are other things you can do that are more bleeding-edge. Here are some additional practices to try at your own pace to help you attain higher levels of DevSecOps, continuous learning and impact for your team and oragnization.</h5>
               <iframe src="https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1waDG0_W3-yNiAaUfxcZhTKvl7AUCgXwQw8mdPjCz86U%2Fedit" height="500">  <p>Your browser does not support iframes.</p>
 </iframe>
 <p><strong>Automate operations tasks.</strong>&nbsp;Manually handling repetitive operations processes is error-prone. Automate these tasks whenever possible to ensure consistent execution and quality. Code that implements the automation should be versioned in source control. As with any other code, automation tools must be tested.</p>
-<p><strong>Take an infrastructure-as-code approach to provisioning.</strong>&nbsp;Minimize the amount of manual configuration needed to provision resources. Instead, use scripts and&nbsp;<a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/" data-linktype="absolute-path">Azure Resource Manager</a>&nbsp;templates. Keep the scripts and templates in source control, like any other code you maintain.</p>
+<p><strong>Take an infrastructure-as-code approach to provisioning.</strong>&nbsp;Minimize the amount of manual configuration needed to provision resources. Instead, use scripts and&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/OpenShift-resource-manager/" data-linktype="absolute-path">OpenShift Resource Manager</a>&nbsp;templates. Keep the scripts and templates in source control, like any other code you maintain.</p>
 <p><strong>Consider using containers.</strong>&nbsp;Containers provide a standard package-based interface for deploying applications. Using containers, an application is deployed using self-contained packages that include any software, dependencies, and files needed to run the application, which greatly simplifies the deployment process.</p>
 <p>Containers also create an abstraction layer between the application and the underlying operating system, which provides consistency across environments. This abstraction can also isolate a container from other processes or applications running on a host.</p>
-<p><strong>Implement resiliency and self-healing.</strong>&nbsp;Resiliency is the ability of an application to recover from failures. Strategies for resiliency include retrying transient failures, and failing over to a secondary instance or even another region. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/azure/architecture/resiliency/index" data-linktype="relative-path">Designing resilient applications for Azure</a>. Instrument your applications so that issues are reported immediately and you can manage outages or other system failures.</p>
+<p><strong>Implement resiliency and self-healing.</strong>&nbsp;Resiliency is the ability of an application to recover from failures. Strategies for resiliency include retrying transient failures, and failing over to a secondary instance or even another region. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/architecture/resiliency/index" data-linktype="relative-path">Designing resilient applications for OpenShift</a>. Instrument your applications so that issues are reported immediately and you can manage outages or other system failures.</p>
 <p><strong>Have an operations manual.</strong>&nbsp;An operations manual or&nbsp;<em>runbook</em>&nbsp;documents the procedures and management information needed for operations staff to maintain a system. Also document any operations scenarios and mitigation plans that might come into play during a failure or other disruption to your service. Create this documentation during the development process, and keep it up to date afterwards. This is a living document, and should be reviewed, tested, and improved regularly.</p>
 <p>Shared documentation is critical. Encourage team members to contribute and share knowledge. The entire team should have access to documents. Make it easy for anyone on the team to help keep documents updated.</p>
 <p><strong>Document on-call procedures.</strong>&nbsp;Make sure on-call duties, schedules, and procedures are documented and shared to all team members. Keep this information up-to-date at all times.</p>
 <p><strong>Document escalation procedures for third-party dependencies.</strong>&nbsp;If your application depends on external third-party services that you don't directly control, you must have a plan to deal with outages. Create documentation for your planned mitigation processes. Include support contacts and escalation paths.</p>
 <p><strong>Use configuration management.</strong>&nbsp;Configuration changes should be planned, visible to operations, and recorded. This could take the form of a configuration management database, or a configuration-as-code approach. Configuration should be audited regularly to ensure that what's expected is actually in place.</p>
-<p><strong>Get an Azure support plan and understand the process.</strong>&nbsp;Azure offers a number of&nbsp;<a href="https://azure.microsoft.com/support/plans/" data-linktype="external">support plans</a>. Determine the right plan for your needs, and make sure the entire team knows how to use it. Team members should understand the details of the plan, how the support process works, and how to open a support ticket with Azure. If you are anticipating a high-scale event, Azure support can assist you with increasing your service limits. For more information, see the&nbsp;<a href="https://azure.microsoft.com/support/faq/" data-linktype="external">Azure Support FAQs</a>.</p>
+<p><strong>Get an OpenShift support plan and understand the process.</strong>&nbsp;OpenShift offers a number of&nbsp;<a href="https://OpenShift.microsoft.com/support/plans/" data-linktype="external">support plans</a>. Determine the right plan for your needs, and make sure the entire team knows how to use it. Team members should understand the details of the plan, how the support process works, and how to open a support ticket with OpenShift. If you are anticipating a high-scale event, OpenShift support can assist you with increasing your service limits. For more information, see the&nbsp;<a href="https://OpenShift.microsoft.com/support/faq/" data-linktype="external">OpenShift Support FAQs</a>.</p>
 <p><strong>Follow least-privilege principles when granting access to resources.</strong>&nbsp;Carefully manage access to resources. Access should be denied by default, unless a user is explicitly given access to a resource. Only grant a user access to what they need to complete their tasks. Track user permissions and perform regular security audits.</p>
-<p><strong>Use role-based access control.</strong>&nbsp;Assigning user accounts and access to resources should not be a manual process. Use&nbsp;<a href="https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-what-is" data-linktype="absolute-path">Role-Based Access Control</a>&nbsp;(RBAC) grant access based on&nbsp;<a href="https://azure.microsoft.com/services/active-directory/" data-linktype="external">Azure Active Directory</a>&nbsp;identities and groups.</p>
+<p><strong>Use role-based access control.</strong>&nbsp;Assigning user accounts and access to resources should not be a manual process. Use&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/active-directory/role-based-access-control-what-is" data-linktype="absolute-path">Role-Based Access Control</a>&nbsp;(RBAC) grant access based on&nbsp;<a href="https://OpenShift.microsoft.com/services/active-directory/" data-linktype="external">OpenShift Active Directory</a>&nbsp;identities and groups.</p>
 <p><strong>Use a bug tracking system to track issues.</strong>&nbsp;Without a good way to track issues, it's easy to miss items, duplicate work, or introduce additional problems. Don't rely on informal person-to-person communication to track the status of bugs. Use a bug tracking tool to record details about problems, assign resources to address them, and provide an audit trail of progress and status.</p>
-<p><strong>Manage all resources in a change management system.</strong>&nbsp;All aspects of your DevOps process should be included in a management and versioning system, so that changes can be easily tracked and audited. This includes code, infrastructure, configuration, documentation, and scripts. Treat all these types of resources as code throughout the test/build/review process.</p>
+<p><strong>Manage all resources in a change management system.</strong>&nbsp;All aspects of your DevSecOps process should be included in a management and versioning system, so that changes can be easily tracked and audited. This includes code, infrastructure, configuration, documentation, and scripts. Treat all these types of resources as code throughout the test/build/review process.</p>
 <p><strong>Use checklists.</strong>&nbsp;Create operations checklists to ensure processes are followed. It&rsquo;s common to miss something in a large manual, and following a checklist can force attention to details that might otherwise be overlooked. Maintain the checklists, and continually look for ways to automate tasks and streamline processes.</p>
               </div>
         </section>
@@ -544,30 +568,31 @@ On an agile project, customer review is built into the process and the customer 
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
               <h4>Recovery Advice</h4><p/>
-          <p><strong>Make systems observable.</strong>&nbsp;The operations team should always have clear visibility into the health and status of a system or service. Set up external health endpoints to monitor status, and ensure that applications are coded to instrument the operations metrics. Use a common and consistent schema that lets you correlate events across systems.&nbsp;<a href="https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/azure-diagnostics" data-linktype="absolute-path">Azure Diagnostics</a>&nbsp;and&nbsp;<a href="https://docs.microsoft.com/en-us/azure/application-insights/" data-linktype="absolute-path">Application Insights</a>&nbsp;are the standard method of tracking the health and status of Azure resources. Microsoft&nbsp;<a href="https://www.microsoft.com/cloud-platform/operations-management-suite" data-linktype="external">Operation Management Suite</a>&nbsp;also provides centralized monitoring and management for cloud or hybrid solutions.</p>
+                  <em/>Great job! You scored highly on the use of advanced practices. Review the glossary below and checkout the Mastery section for more cutting-edge practices. </em>
+          <p><strong>Make systems observable.</strong>&nbsp;The operations team should always have clear visibility into the health and status of a system or service. Set up external health endpoints to monitor status, and ensure that applications are coded to instrument the operations metrics. Use a common and consistent schema that lets you correlate events across systems.&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/monitoring-and-diagnostics/OpenShift-diagnostics" data-linktype="absolute-path">OpenShift Diagnostics</a>&nbsp;and&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/application-insights/" data-linktype="absolute-path">Application Insights</a>&nbsp;are the standard method of tracking the health and status of OpenShift resources. Microsoft&nbsp;<a href="https://www.microsoft.com/cloud-platform/operations-management-suite" data-linktype="external">Operation Management Suite</a>&nbsp;also provides centralized monitoring and management for cloud or hybrid solutions.</p>
           <p><strong>Aggregate and correlate logs and metrics</strong>. A properly instrumented telemetry system will provide a large amount of raw performance data and event logs. Make sure that telemetry and log data is processed and correlated in a short period of time, so that operations staff always have an up-to-date picture of system health. Organize and display data in ways that give a cohesive view of any issues, so that whenever possible it's clear when events are related to one another.</p>
           <blockquote>
          Consult your corporate retention policy for requirements on how data is processed and how long it should be stored.
           </blockquote>
-          <p><strong>Implement automated alerts and notifications.</strong>&nbsp;Set up monitoring tools like&nbsp;<a href="https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview" data-linktype="absolute-path">Azure Monitor</a> to detect patterns or conditions that indicate potential or current issues, and send alerts to the team members who can address the issues. Tune the alerts to avoid false positives.</p>
+          <p><strong>Implement automated alerts and notifications.</strong>&nbsp;Set up monitoring tools like&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/monitoring-and-diagnostics/monitoring-overview" data-linktype="absolute-path">OpenShift Monitor</a> to detect patterns or conditions that indicate potential or current issues, and send alerts to the team members who can address the issues. Tune the alerts to avoid false positives.</p>
           <p><strong>Monitor assets and resources for expirations.</strong>&nbsp;Some resources and assets, such as certificates, expire after a given amount of time. Make sure to track which assets expire, when they expire, and what services or features depend on them. Use automated processes to monitor these assets. Notify the operations team before an asset expires, and escalate if expiration threatens to disrupt the application.
 </p>
 <p><strong>Perform failover and failback testing for your application.</strong>&nbsp;If you haven't fully tested failover and failback, you can't be certain that the dependent services in your application come back up in a synchronized manner during disaster recovery. Ensure that your application's dependent services failover and fail back in the correct order.</p>
 <p><strong>Perform fault-injection testing for your application.</strong>&nbsp;Your application can fail for many different reasons, such as certificate expiration, exhaustion of system resources in a VM, or storage failures. Test your application in an environment as close as possible to production, by simulating or triggering real failures. For example, delete certificates, artificially consume system resources, or delete a storage source. Verify your application's ability to recover from all types of faults, alone and in combination. Check that failures are not propagating or cascading through your system.</p>
-<p><strong>Log telemetry data while the application is running in the production environment.</strong>Capture robust telemetry information while the application is running in the production environment or you will not have sufficient information to diagnose the cause of issues while it's actively serving users. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/azure/architecture/best-practices/monitoring" data-linktype="relative-path">Monitoring and Diagnostics</a>.</p>
+<p><strong>Log telemetry data while the application is running in the production environment.</strong>Capture robust telemetry information while the application is running in the production environment or you will not have sufficient information to diagnose the cause of issues while it's actively serving users. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/architecture/best-practices/monitoring" data-linktype="relative-path">Monitoring and Diagnostics</a>.</p>
 <p><strong>Implement logging using an asynchronous pattern.</strong>&nbsp;If logging operations are synchronous, they might block your application code. Ensure that your logging operations are implemented as asynchronous operations.</p>
 <p><strong>Correlate log data across service boundaries.</strong>&nbsp;In a typical n-tier application, a user request may traverse several service boundaries. For example, a user request typically originates in the web tier and is passed to the business tier and finally persisted in the data tier. In more complex scenarios, a user request may be distributed to many different services and data stores. Ensure that your logging system correlates calls across service boundaries so you can track the request throughout your application.
-<p><strong>Deploy multiple instances of services.</strong>&nbsp;If your application depends on a single instance of a service, it creates a single point of failure. Provisioning multiple instances improves both resiliency and scalability. For&nbsp;<a href="https://docs.microsoft.com/en-us/azure/app-service/app-service-value-prop-what-is/" data-linktype="absolute-path">Azure App Service</a>, select an&nbsp;<a href="https://docs.microsoft.com/en-us/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview/" data-linktype="absolute-path">App Service Plan</a>&nbsp;that offers multiple instances. For Azure Cloud Services, configure each of your roles to use&nbsp;<a href="https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-choose-me/#scaling-and-management" data-linktype="absolute-path">multiple instances</a>. For&nbsp;<a href="https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-about/?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json" data-linktype="absolute-path">Azure Virtual Machines (VMs)</a>, ensure that your VM architecture includes more than one VM and that each VM is included in an&nbsp;<a href="https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-manage-availability/" data-linktype="absolute-path">availability set</a>.</p>
+<p><strong>Deploy multiple instances of services.</strong>&nbsp;If your application depends on a single instance of a service, it creates a single point of failure. Provisioning multiple instances improves both resiliency and scalability. For&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/app-service/app-service-value-prop-what-is/" data-linktype="absolute-path">OpenShift App Service</a>, select an&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/app-service/OpenShift-web-sites-web-hosting-plans-in-depth-overview/" data-linktype="absolute-path">App Service Plan</a>&nbsp;that offers multiple instances. For OpenShift Cloud Services, configure each of your roles to use&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/cloud-services/cloud-services-choose-me/#scaling-and-management" data-linktype="absolute-path">multiple instances</a>. For&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/virtual-machines/virtual-machines-windows-about/?toc=%2fOpenShift%2fvirtual-machines%2fwindows%2ftoc.json" data-linktype="absolute-path">OpenShift Virtual Machines (VMs)</a>, ensure that your VM architecture includes more than one VM and that each VM is included in an&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/virtual-machines/virtual-machines-windows-manage-availability/" data-linktype="absolute-path">availability set</a>.</p>
 <p><strong>Consider deploying your application across multiple regions.</strong>&nbsp;If your application is deployed to a single region, in the rare event the entire region becomes unavailable, your application will also be unavailable. This may be unacceptable under the terms of your application's SLA. If so, consider deploying your application and its services across multiple regions.</p>
-<p><strong>Automate and test deployment and maintenance tasks.</strong>&nbsp;Distributed applications consist of multiple parts that must work together. Deployment should be automated, using tested and proven mechanisms such as scripts. These can update and validate configuration, and automate the deployment process. Use&nbsp;<a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates" data-linktype="absolute-path">Azure Resource Manager templates</a>&nbsp;to provision Azure resource. Also use automated techniques to perform application updates. It is vital to test all of these processes fully to ensure that errors do not cause additional downtime. All deployment tools must have suitable security restrictions to protect the deployed application; define and enforce deployment policies carefully and minimize the need for human intervention.</p>
-<p><strong>Use staging and production features of the platform.</strong>. For example, Azure App Service supports&nbsp;<a href="https://docs.microsoft.com/en-us/azure/app-service/web-sites-staged-publishing" data-linktype="absolute-path">deployment slots</a>, which you can use to stage a deployment before swapping it to production. Azure Service Fabric supports&nbsp;<a href="https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-application-upgrade" data-linktype="absolute-path">rolling upgrades</a>&nbsp;to application services.</p>
+<p><strong>Automate and test deployment and maintenance tasks.</strong>&nbsp;Distributed applications consist of multiple parts that must work together. Deployment should be automated, using tested and proven mechanisms such as scripts. These can update and validate configuration, and automate the deployment process. Use&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/OpenShift-resource-manager/resource-group-authoring-templates" data-linktype="absolute-path">OpenShift Resource Manager templates</a>&nbsp;to provision OpenShift resource. Also use automated techniques to perform application updates. It is vital to test all of these processes fully to ensure that errors do not cause additional downtime. All deployment tools must have suitable security restrictions to protect the deployed application; define and enforce deployment policies carefully and minimize the need for human intervention.</p>
+<p><strong>Use staging and production features of the platform.</strong>. For example, OpenShift App Service supports&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/app-service/web-sites-staged-publishing" data-linktype="absolute-path">deployment slots</a>, which you can use to stage a deployment before swapping it to production. OpenShift Service Fabric supports&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/service-fabric/service-fabric-application-upgrade" data-linktype="absolute-path">rolling upgrades</a>&nbsp;to application services.</p>
 <p><strong>Place virtual machines (VMs) in an availability set.</strong>&nbsp;To maximize availability, create multiple instances of each VM role and place these instances in the same availability set. If have multiple VMs that serve different roles, such as different application tiers, create an availability set for each VM role. For example, create an availability set for the web tier and another for the data tier.</p>
 <p>&nbsp;</p>
 <p><strong>Provide rich instrumentation for likely failures and failure events</strong>&nbsp;to report the situation to operations staff. For failures that are likely but have not yet occurred, provide sufficient data to enable operations staff to determine the cause, mitigate the situation, and ensure that the system remains available. For failures that have already occurred, the application should return an appropriate error message to the user but attempt to continue running, albeit with reduced functionality. In all cases, the monitoring system should capture comprehensive details to enable operations staff to effect a quick recovery, and if necessary, for designers and developers to modify the system to prevent the situation from arising again.</p>
 <p><strong>Monitor system health by implementing checking functions.</strong>&nbsp;The health and performance of an application can degrade over time, without being noticeable until it fails. Implement probes or check functions that are executed regularly from outside the application. These checks can be as simple as measuring response time for the application as a whole, for individual parts of the application, for individual services that the application uses, or for individual components. Check functions can execute processes to ensure they produce valid results, measure latency and check availability, and extract information from the system.</p>
 <p><strong>Regularly test all failover and fallback systems.</strong>&nbsp;Changes to systems and operations may affect failover and fallback functions, but the impact may not be detected until the main system fails or becomes overloaded. Test it before it is required to compensate for a live problem at runtime.</p>
 <p><strong>Test the monitoring systems.</strong>&nbsp;Automated failover and fallback systems, and manual visualization of system health and performance by using dashboards, all depend on monitoring and instrumentation functioning correctly. If these elements fail, miss critical information, or report inaccurate data, an operator might not realize that the system is unhealthy or failing.</p>
-<p><strong>Track the progress of long-running workflows and retry on failure.</strong>&nbsp;Long-running workflows are often composed of multiple steps. Ensure that each step is independent and can be retried to minimize the chance that the entire workflow will need to be rolled back, or that multiple compensating transactions need to be executed. Monitor and manage the progress of long-running workflows by implementing a pattern such as&nbsp;<a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/scheduler-agent-supervisor" data-linktype="relative-path">Scheduler Agent Supervisor Pattern</a>.</p>
+<p><strong>Track the progress of long-running workflows and retry on failure.</strong>&nbsp;Long-running workflows are often composed of multiple steps. Ensure that each step is independent and can be retried to minimize the chance that the entire workflow will need to be rolled back, or that multiple compensating transactions need to be executed. Monitor and manage the progress of long-running workflows by implementing a pattern such as&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/architecture/patterns/scheduler-agent-supervisor" data-linktype="relative-path">Scheduler Agent Supervisor Pattern</a>.</p>
 <p><strong>Plan for disaster recovery.</strong>&nbsp;Create an accepted, fully-tested plan for recovery from any type of failure that may affect system availability. Choose a multi-site disaster recovery architecture for any mission-critical applications. Identify a specific owner of the disaster recovery plan, including automation and testing. Ensure the plan is well-documented, and automate the process as much as possible. Establish a backup strategy for all reference and transactional data, and test the restoration of these backups regularly. Train operations staff to execute the plan, and perform regular disaster simulations to validate and improve the plan.</p>
 </p>
                         </div>
@@ -577,8 +602,9 @@ On an agile project, customer review is built into the process and the customer 
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
               <h4>Security Advice</h4><p/>
-<p><strong>Implement application-level protection against distributed denial of service (DDoS) attacks.</strong>&nbsp;Azure services are protected against DDos attacks at the network layer. However, Azure cannot protect against application-layer attacks, because it is difficult to distinguish between true user requests from malicious user requests. For more information on how to protect against application-layer DDoS attacks, see the "Protecting against DDoS" section of&nbsp;<a href="http://download.microsoft.com/download/C/A/3/CA3FC5C0-ECE0-4F87-BF4B-D74064A00846/AzureNetworkSecurity_v3_Feb2015.pdf" data-linktype="external">Microsoft Azure Network Security</a>&nbsp;(PDF download).</p>
-<p><strong>Implement the principle of least privilege for access to the application's resources.</strong>&nbsp;The default for access to the application's resources should be as restrictive as possible. Grant higher level permissions on an approval basis. Granting overly permissive access to your application's resources by default can result in someone purposely or accidentally deleting resources. Azure provides&nbsp;<a href="https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-built-in-roles/" data-linktype="absolute-path">role-based access control</a>&nbsp;to manage user privileges, but it's important to verify least privilege permissions for other resources that have their own permissions systems such as SQL Server.</p>
+               <em/>Great job! You scored highly on the use of advanced practices. Review the glossary below and checkout the Mastery section for more cutting-edge practices. </em>
+<p><strong>Implement application-level protection against distributed denial of service (DDoS) attacks.</strong>&nbsp;OpenShift services are protected against DDos attacks at the network layer. However, OpenShift cannot protect against application-layer attacks, because it is difficult to distinguish between true user requests from malicious user requests. For more information on how to protect against application-layer DDoS attacks, see the "Protecting against DDoS" section of&nbsp;<a href="http://download.microsoft.com/download/C/A/3/CA3FC5C0-ECE0-4F87-BF4B-D74064A00846/OpenShiftNetworkSecurity_v3_Feb2015.pdf" data-linktype="external">Microsoft OpenShift Network Security</a>&nbsp;(PDF download).</p>
+<p><strong>Implement the principle of least privilege for access to the application's resources.</strong>&nbsp;The default for access to the application's resources should be as restrictive as possible. Grant higher level permissions on an approval basis. Granting overly permissive access to your application's resources by default can result in someone purposely or accidentally deleting resources. OpenShift provides&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/active-directory/role-based-access-built-in-roles/" data-linktype="absolute-path">role-based access control</a>&nbsp;to manage user privileges, but it's important to verify least privilege permissions for other resources that have their own permissions systems such as SQL Server.</p>
               </div>
         </section>
           </div>
@@ -586,31 +612,31 @@ On an agile project, customer review is built into the process and the customer 
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
               <h4>Data Management Advice</h4><p/>
-              <p><strong>Geo-replicate data in Azure Storage</strong>. Data in Azure Storage is automatically replicated within in a datacenter. For even higher availability, use Read-access geo-redundant storage (-RAGRS), which replicates your data to a secondary region and provides read-only access to the data in the secondary location. The data is durable even in the case of a complete regional outage or a disaster. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/azure/storage/storage-redundancy" data-linktype="absolute-path">Azure Storage replication</a>.</p>
-<p><strong>Geo-replicate databases</strong>. Azure SQL Database and Cosmos DB both support geo-replication, which enables you to configure secondary database replicas in other regions. Secondary databases are available for querying and for failover in the case of a data center outage or the inability to connect to the primary database. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/azure/sql-database/sql-database-geo-replication-overview" data-linktype="absolute-path">Failover groups and active geo-replication</a>&nbsp;(SQL Database) and&nbsp;<a href="https://docs.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally" data-linktype="absolute-path">How to distribute data globally with Azure Cosmos DB</a>.</p>
+              <p><strong>Geo-replicate data in OpenShift Storage</strong>. Data in OpenShift Storage is automatically replicated within in a datacenter. For even higher availability, use Read-access geo-redundant storage (-RAGRS), which replicates your data to a secondary region and provides read-only access to the data in the secondary location. The data is durable even in the case of a complete regional outage or a disaster. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/storage/storage-redundancy" data-linktype="absolute-path">OpenShift Storage replication</a>.</p>
+<p><strong>Geo-replicate databases</strong>. OpenShift SQL Database and Cosmos DB both support geo-replication, which enables you to configure secondary database replicas in other regions. Secondary databases are available for querying and for failover in the case of a data center outage or the inability to connect to the primary database. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/sql-database/sql-database-geo-replication-overview" data-linktype="absolute-path">Failover groups and active geo-replication</a>&nbsp;(SQL Database) and&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/cosmos-db/distribute-data-globally" data-linktype="absolute-path">How to distribute data globally with OpenShift Cosmos DB</a>.</p>
 <p><strong>Use optimistic concurrency and eventual consistency</strong>. Transactions that block access to resources through locking (pessimistic concurrency) can cause poor performance and considerably reduce availability. These problems can become especially acute in distributed systems. In many cases, careful design and techniques such as partitioning can minimize the chances of conflicting updates occurring. Where data is replicated, or is read from a separately updated store, the data will only be eventually consistent. But the advantages usually far outweigh the impact on availability of using transactions to ensure immediate consistency.</p>
-<p><strong>Use periodic backup and point-in-time restore</strong>. Regularly and automatically back up data that is not preserved elsewhere, and verify you can reliably restore both the data and the application itself should a failure occur. Ensure that backups meet your Recovery Point Objective (RPO). Data replication is not a backup feature, because human error or malicious operations can corrupt data across all the replicas. The backup process must be secure to protect the data in transit and in storage. Databases or parts of a data store can usually be recovered to a previous point in time by using transaction logs. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/azure/architecture/resiliency/recovery-data-corruption" data-linktype="relative-path">Recover from data corruption or accidental deletion</a></p>
+<p><strong>Use periodic backup and point-in-time restore</strong>. Regularly and automatically back up data that is not preserved elsewhere, and verify you can reliably restore both the data and the application itself should a failure occur. Ensure that backups meet your Recovery Point Objective (RPO). Data replication is not a backup feature, because human error or malicious operations can corrupt data across all the replicas. The backup process must be secure to protect the data in transit and in storage. Databases or parts of a data store can usually be recovered to a previous point in time by using transaction logs. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/architecture/resiliency/recovery-data-corruption" data-linktype="relative-path">Recover from data corruption or accidental deletion</a></p>
 <p>&nbsp;</p>
-<p><strong>Understand the replication methods for your application's data sources.</strong>&nbsp;Your application data will be stored in different data sources and have different availability requirements. Evaluate the replication methods for each type of data storage in Azure, including&nbsp;<a href="https://docs.microsoft.com/en-us/azure/storage/storage-redundancy/" data-linktype="absolute-path">Azure Storage Replication</a>&nbsp;and&nbsp;<a href="https://docs.microsoft.com/en-us/azure/sql-database/sql-database-geo-replication-overview/" data-linktype="absolute-path">SQL Database Active Geo-Replication</a>&nbsp;to ensure that your application's data requirements are satisfied.</p>
+<p><strong>Understand the replication methods for your application's data sources.</strong>&nbsp;Your application data will be stored in different data sources and have different availability requirements. Evaluate the replication methods for each type of data storage in OpenShift, including&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/storage/storage-redundancy/" data-linktype="absolute-path">OpenShift Storage Replication</a>&nbsp;and&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/sql-database/sql-database-geo-replication-overview/" data-linktype="absolute-path">SQL Database Active Geo-Replication</a>&nbsp;to ensure that your application's data requirements are satisfied.</p>
 <p><strong>Ensure that no single user account has access to both production and backup data.</strong>&nbsp;Your data backups are compromised if one single user account has permission to write to both production and backup sources. A malicious user could purposely delete all your data, while a regular user could accidentally delete it. Design your application to limit the permissions of each user account so that only the users that require write access have write access and it's only to either production or backup, but not both.</p>
 <p><strong>Document your data source fail over and fail back process and test it.</strong>&nbsp;In the case where your data source fails catastrophically, a human operator will have to follow a set of documented instructions to fail over to a new data source. If the documented steps have errors, an operator will not be able to successfully follow them and fail over the resource. Regularly test the instruction steps to verify that an operator following them is able to successfully fail over and fail back the data source.</p>
 <p><strong>Validate your data backups.</strong>&nbsp;Regularly verify that your backup data is what you expect by running a script to validate data integrity, schema, and queries. There's no point having a backup if it's not useful to restore your data sources. Log and report any inconsistencies so the backup service can be repaired.</p>
-<p><strong>Consider using a storage account type that is geo-redundant.</strong>&nbsp;Data stored in an Azure Storage account is always replicated locally. However, there are multiple replication strategies to choose from when a Storage Account is provisioned. Select&nbsp;<a href="https://docs.microsoft.com/en-us/azure/storage/storage-redundancy/#read-access-geo-redundant-storage" data-linktype="absolute-path">Azure Read-Access Geo Redundant Storage (RA-GRS)</a>&nbsp;to protect your application data against the rare case when an entire region becomes unavailable.</p>
+<p><strong>Consider using a storage account type that is geo-redundant.</strong>&nbsp;Data stored in an OpenShift Storage account is always replicated locally. However, there are multiple replication strategies to choose from when a Storage Account is provisioned. Select&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/storage/storage-redundancy/#read-access-geo-redundant-storage" data-linktype="absolute-path">OpenShift Read-Access Geo Redundant Storage (RA-GRS)</a>&nbsp;to protect your application data against the rare case when an entire region becomes unavailable.</p>
 <p>&nbsp;</p>
-<p><strong>Use data partitioning</strong>. Divide the data across multiple databases and database servers, or design the application to use data storage services that can provide this partitioning transparently (examples include Azure SQL Database Elastic Database, and Azure Table storage). This approach can help to maximize performance and allow easier scaling. There are different partitioning techniques, such as horizontal, vertical, and functional. You can use a combination of these to achieve maximum benefit from increased query performance, simpler scalability, more flexible management, better availability, and to match the type of store to the data it will hold. Also, consider using different types of data store for different types of data, choosing the types based on how well they are optimized for the specific type of data. This may include using table storage, a document database, or a column-family data store, instead of, or as well as, a relational database. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/azure/architecture/best-practices/data-partitioning" data-linktype="relative-path">Data partitioning guidance</a>.</p>
+<p><strong>Use data partitioning</strong>. Divide the data across multiple databases and database servers, or design the application to use data storage services that can provide this partitioning transparently (examples include OpenShift SQL Database Elastic Database, and OpenShift Table storage). This approach can help to maximize performance and allow easier scaling. There are different partitioning techniques, such as horizontal, vertical, and functional. You can use a combination of these to achieve maximum benefit from increased query performance, simpler scalability, more flexible management, better availability, and to match the type of store to the data it will hold. Also, consider using different types of data store for different types of data, choosing the types based on how well they are optimized for the specific type of data. This may include using table storage, a document database, or a column-family data store, instead of, or as well as, a relational database. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/architecture/best-practices/data-partitioning" data-linktype="relative-path">Data partitioning guidance</a>.</p>
 <p><strong>Design for eventual consistency</strong>. Eventual consistency improves scalability by reducing or removing the time needed to synchronize related data partitioned across multiple stores. The cost is that data is not always consistent when it is read, and some write operations may cause conflicts. Eventual consistency is ideal for situations where the same data is read frequently but written infrequently. For more information, see the&nbsp;<a href="https://msdn.microsoft.com/library/dn589800.aspx" data-linktype="external">Data Consistency Primer</a>.</p>
 <p><strong>Reduce chatty interactions between components and services</strong>. Avoid designing interactions in which an application is required to make multiple calls to a service (each of which returns a small amount of data), rather than a single call that can return all of the data. Where possible, combine several related operations into a single request when the call is to a service or component that has noticeable latency. This makes it easier to monitor performance and optimize complex operations. For example, use stored procedures in databases to encapsulate complex logic, and reduce the number of round trips and resource locking.</p>
 <p><strong>Use queues to level the load for high velocity data writes</strong>. Surges in demand for a service can overwhelm that service and cause escalating failures. To prevent this, consider implementing the&nbsp;<a href="https://msdn.microsoft.com/library/dn589783.aspx" data-linktype="external">Queue-Based Load Leveling Pattern</a>. Use a queue that acts as a buffer between a task and a service that it invokes. This can smooth intermittent heavy loads that may otherwise cause the service to fail or the task to time out.</p>
 <p><strong>Minimize the load on the data store</strong>. The data store is commonly a processing bottleneck, a costly resource, and often not easy to scale out. Where possible, remove logic (such as processing XML documents or JSON objects) from the data store, and perform processing within the application. For example, instead of passing XML to the database (other than as an opaque string for storage), serialize or deserialize the XML within the application layer and pass it in a form that is native to the data store. It's typically much easier to scale out the application than the data store, so you should attempt to do as much of the compute-intensive processing as possible within the application.</p>
 <p><strong>Minimize the volume of data retrieved</strong>. Retrieve only the data you require by specifying columns and using criteria to select rows. Make use of table value parameters and the appropriate isolation level. Use mechanisms like entity tags to avoid retrieving data unnecessarily.</p>
-<p><strong>Aggressively use caching</strong>. Use caching wherever possible to reduce the load on resources and services that generate or deliver data. Caching is typically suited to data that is relatively static, or that requires considerable processing to obtain. Caching should occur at all levels where appropriate in each layer of the application, including data access and user interface generation. For more information, see the&nbsp;<a href="https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching" data-linktype="relative-path">Caching Guidance</a>.</p>
+<p><strong>Aggressively use caching</strong>. Use caching wherever possible to reduce the load on resources and services that generate or deliver data. Caching is typically suited to data that is relatively static, or that requires considerable processing to obtain. Caching should occur at all levels where appropriate in each layer of the application, including data access and user interface generation. For more information, see the&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/architecture/best-practices/caching" data-linktype="relative-path">Caching Guidance</a>.</p>
 <p><strong>Handle data growth and retention</strong>. The amount of data stored by an application grows over time. This growth increases storage costs, and increases latency when accessing the data &mdash; which affects application throughput and performance. It may be possible to periodically archive some of the old data that is no longer accessed, or move data that is rarely accessed into long-term storage that is more cost efficient, even if the access latency is higher.</p>
 <p><strong>Optimize Data Transfer Objects (DTOs) using an efficient binary format</strong>. DTOs are passed between the layers of an application many times. Minimizing the size reduces the load on resources and the network. However, balance the savings with the overhead of converting the data to the required format in each location where it is used. Adopt a format that has the maximum interoperability to enable easy reuse of a component.</p>
 <p><strong>Set cache control</strong>. Design and configure the application to use output caching or fragment caching where possible, to minimize processing load.</p>
 <p><strong>Enable client side caching</strong>. Web applications should enable cache settings on the content that can be cached. This is commonly disabled by default. Configure the server to deliver the appropriate cache control headers to enable caching of content on proxy servers and clients.</p>
-<p><strong>Use Azure blob storage and the Azure Content Delivery Network to reduce the load on the application</strong>. Consider storing static or relatively static public content, such as images, resources, scripts, and style sheets, in blob storage. This approach relieves the application of the load caused by dynamically generating this content for each request. Additionally, consider using the Content Delivery Network to cache this content and deliver it to clients. Using the Content Delivery Network can improve performance at the client because the content is delivered from the geographically closest datacenter that contains a Content Delivery Network cache. For more information, see the&nbsp;<a href="https://docs.microsoft.com/en-us/azure/architecture/best-practices/cdn" data-linktype="relative-path">Content Delivery Network Guidance</a>.</p>
+<p><strong>Use OpenShift blob storage and the OpenShift Content Delivery Network to reduce the load on the application</strong>. Consider storing static or relatively static public content, such as images, resources, scripts, and style sheets, in blob storage. This approach relieves the application of the load caused by dynamically generating this content for each request. Additionally, consider using the Content Delivery Network to cache this content and deliver it to clients. Using the Content Delivery Network can improve performance at the client because the content is delivered from the geographically closest datacenter that contains a Content Delivery Network cache. For more information, see the&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/architecture/best-practices/cdn" data-linktype="relative-path">Content Delivery Network Guidance</a>.</p>
 <p><strong>Optimize and tune SQL queries and indexes</strong>. Some T-SQL statements or constructs may have an impact on performance that can be reduced by optimizing the code in a stored procedure. For example, avoid converting&nbsp;<strong>datetime</strong>&nbsp;types to a&nbsp;<strong>varchar</strong>&nbsp;before comparing with a&nbsp;<strong>datetime</strong>&nbsp;literal value. Use date/time comparison functions instead. Lack of appropriate indexes can also slow query execution. If you use an object/relational mapping framework, understand how it works and how it may affect performance of the data access layer. For more information, see&nbsp;<a href="https://technet.microsoft.com/library/ms176005.aspx" data-linktype="external">Query Tuning</a>.</p>
-<p><strong>Consider de-normalizing data</strong>. Data normalization helps to avoid duplication and inconsistency. However, maintaining multiple indexes, checking for referential integrity, performing multiple accesses to small chunks of data, and joining tables to reassemble the data imposes an overhead that can affect performance. Consider if some additional storage volume and duplication is acceptable in order to reduce the load on the data store. Also, consider if the application itself (which is typically easier to scale) can be relied upon to take over tasks such as managing referential integrity in order to reduce the load on the data store. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/azure/architecture/best-practices/data-partitioning" data-linktype="relative-path">Data partitioning guidance</a>.</p>
+<p><strong>Consider de-normalizing data</strong>. Data normalization helps to avoid duplication and inconsistency. However, maintaining multiple indexes, checking for referential integrity, performing multiple accesses to small chunks of data, and joining tables to reassemble the data imposes an overhead that can affect performance. Consider if some additional storage volume and duplication is acceptable in order to reduce the load on the data store. Also, consider if the application itself (which is typically easier to scale) can be relied upon to take over tasks such as managing referential integrity in order to reduce the load on the data store. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/architecture/best-practices/data-partitioning" data-linktype="relative-path">Data partitioning guidance</a>.</p>
 
           </div>
         </section>
