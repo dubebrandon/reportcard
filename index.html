@@ -103,8 +103,8 @@
           <a href="#security" class="mdl-layout__tab">Security</a>
           <a href="#recovery" class="mdl-layout__tab">Recovery</a>
           <a href="#datamgmt" class="mdl-layout__tab">Data mgmt</a>
-          <a href="#privacy" class="mdl-layout__tab">Micro services</a>
-          <a href="#privacy" class="mdl-layout__tab">User Centered</a>
+          <a href="#micro" class="mdl-layout__tab">Micro services</a>
+          <a href="#ucd" class="mdl-layout__tab">User Centered</a>
           <a href="#expert" class="mdl-layout__tab">mastery</a>
           <a href="#privacy" class="mdl-layout__tab"></a>
 
@@ -663,6 +663,209 @@ Be aware of practices bad actors can use like SQL injections, remote file inclus
           </div>
         </section>
           </div>
+<div class="mdl-layout__tab-panel" id="micro">
+</div>
+<div class="mdl-layout__tab-panel" id="ucd">
+  
+                    <h2 pid="54"><strong style="line-height: 1.45;">The Origin of DevOps</strong></h2>
+<p pid="3">In 2008, Patrick Debois laid the&nbsp;<a href="http://rewrite.ca.com/us/articles/devops/a-short-history-of-devops.html" rel="nofollow">foundations</a>&nbsp;for DevOps at an Agile conference in Toronto. &nbsp;He was trying to come up with a solution for the inherent conflicts between developers and system admins. &nbsp;&nbsp;Both disciplines seemed to be at odds: developers wanted to release software more frequently, but system admins wanted to ensure stability, performance, and scalability. &nbsp;While this conflict isn’t necessarily black and white, it highlighted the need for developers and system admins to no longer consider themselves as mutually exclusive roles, but rather as cross-functional partners.</p>
+<p pid="4">A year later, Paul Hammond and John Allspaw gave a&nbsp;<a href="http://www.slideshare.net/jallspaw/10-deploys-per-day-dev-and-ops-cooperation-at-flickr" rel="nofollow">talk</a>&nbsp;at the Velocity ‘09 conference that highlighted the necessity for cooperation between Dev and Ops. &nbsp;This inspired Debois to coin the term “DevOps” (#DevOps), which quickly picked up momentum (and a fair share of controversy).</p>
+<p pid="5">Now, with the proliferation of&nbsp;<a href="http://www.devopsdays.org/" rel="nofollow">DevOpsDays</a>&nbsp;meetups and DevOps communities around the world, the movement has accelerated.</p>
+<p pid="41"><img alt="DevOps 2.0 Trends LaunchDarkly Feature Flags" class="fr-fin fr-dib" src="/storage/temp/2112150-devops-keyword.jpg" title="DevOps 2.0 Trends LaunchDarkly Feature Flags" width="807"></p>
+<h2>DevOps 1.0</h2>
+<p pid="7">We all know that labeling something with version 1.0, 2.0, 3.0… makes our eyes roll. &nbsp;In this case, however, we can frame DevOps 1.0 as the birth and emergence of a nuanced movement. &nbsp;&nbsp;This nuance is in establishing its initial identity: a way to bridge the gap between development and operations with a visionary goal to accelerate&nbsp;<a href="https://www.thoughtworks.com/continuous-delivery" rel="nofollow">continuous delivery and deployment</a>.</p>
+<p pid="8">Broadly speaking, the DevOps movement centers around the philosophy that building, testing, and releasing software should happen continuously and incrementally. &nbsp;The age of waterfall releases is slowly winding down and most progressive development teams are&nbsp;<a href="https://blog.newrelic.com/2014/10/16/devops-continuous-delivery/" rel="nofollow">embracing continuous delivery</a>&nbsp;as the de facto development method.</p>
+<p pid="9">In terms of a disciplinary definition, DevOps is at the intersection of development, QA, and operations. &nbsp;It has become an amalgamation of soft and hard skills: trust, cross-functional teams, DVCS, and robust QA/continuous delivery systems.</p>
+<p pid="44"><img alt="The DevOps System LaunchDarkly Development Operations QA" class="fr-fin fr-dib" src="/storage/temp/2112151-devops.jpg" title="The DevOps System LaunchDarkly Development Operations QA" width="807"></p>
+<p pid="11">As we see, DevOps has become a systemic term that treats software delivery as an organic and fluid process. &nbsp;Our application is now treated as a living entity, where we harness a suite of services to ensure that our software infrastructure can adapt to change, iterate quickly, and proactively mitigate risk.</p>
+<p pid="12">We have now embraced the notion that software does not need to be perfect when it is first launched. &nbsp;We do not need to embrace a monolithic release and hope that our months of planning, design, and operations development have led us on the right path. &nbsp;Hence, the DevOps movement was founded on the notion that the best software is adaptive, not reactive. &nbsp;To make adaptive software, we are now embracing systems that are built for change.</p>
+<p pid="13">With consumers now demanding the expedient delivery of near-perfect software and with a global tech boom, how do software companies stay competitive? &nbsp;How do companies leverage DevOps to stay lean, adapt to change, maintain stability, and deliver software faster? &nbsp;This question leads us to emergence of DevOps 2.0: extending the feedback loop benefits of dev and ops to the entire organization: marketing, sales, product, dev, and ops.</p>
+<h2>DevOps 2.0</h2>
+<p pid="15">DevOps 1.0 has been heavily centered around harmonizing the interplay of development, QA, and operations. &nbsp;The primary goal has been to institutionalize continuous delivery, while also creating more flexible and stable application infrastructure. &nbsp;With DevOps 2.0, we see the emergence of adaptive feature delivery as a critical component for successful software releases.</p>
+<p pid="46"><img alt="DevOps 1.0 and DevOps 2.0 LaunchDarkly Feature Toggles Feature Flags" class="fr-fin fr-dib" src="/storage/temp/2112152-devops2.jpg" title="DevOps 1.0 and DevOps 2.0 LaunchDarkly Feature Toggles Feature Flags" width="808"></p>
+<p pid="45">This need for adaptation is both internal and external. &nbsp;Internally, teams must adopt cross-functional methods to ensure that software is:</p>
+<ul>
+ <li>Iterated with a continuous cadence</li>
+ <li>Scaled quickly while maintaining system stability</li>
+ <li>Complementary to marketing and sales campaigns</li>
+</ul>
+<p pid="17">Externally, teams must respond to a customer market that is in a continuous state of flux. &nbsp;Because customer culture shifts so rapidly, customers’ expectations now change from month-to-month instead of year-to-year.</p>
+<h3 pid="18"><strong>Team Coordination</strong></h3>
+<p pid="19">For organizations, DevOps 2.0 brings the power of DevOps to non-technical team members. &nbsp;While this may sound risky, it actually empowers marketing, design, and business teams to control targeted visibility and testing without consuming engineering resources. &nbsp;Because feature rollout will be decoupled from code deployment, non-technical team members would be able to control the visibility of particular features without compromising the app’s integrity. &nbsp;This is primarily achieved by harnessing a<a href="http://blog.launchdarkly.com/enterprise-requirements-for-managing-feature-flags/" rel="nofollow">&nbsp;feature flag user interface</a>&nbsp;– or a comparable control panel that allows team members to target users via a GUI.</p>
+<p pid="48"><img alt="DevOps 2.0 Principles Decouple Feature Rollout from Code Deployment LaunchDarkly Feature Flags Feature Toggles and Risk Mitigation" class="fr-fin fr-dib" src="/storage/temp/2112154-devops2-cycle.jpg" title="DevOps 2.0 Principles Decouple Feature Rollout from Code Deployment LaunchDarkly Feature Flags Feature Toggles and Risk Mitigation" width="808"></p>
+<p pid="21">Therefore, the central challenge for DevOps 2.0 is harnessing the appropriate tools to ensure that software deployments are responsive to consumer demands. &nbsp;In the last few years, a number of DevOps tools have emerged to help facilitate coordination between previously disparate disciplines.</p>
+<h3 pid="22"><strong>DevOps Tools</strong></h3>
+<p pid="23">DevOps has evolved into a&nbsp;breadth of coordinated development processes. &nbsp;These processes work together to help teams deliver better software, faster. &nbsp;DevOps is not about using one particular tool, it is about using the right combination of tools to accelerate development and mitigate risk. &nbsp;This list captures&nbsp;some of emergent DevOps tools categorized by purpose:</p>
+<table>
+ <tbody>
+  <tr>
+   <td valign="top">
+    <ul>
+     <li>Team and Task Coordination 
+      <ul>
+       <li><a href="https://slack.com/" rel="nofollow">Slack</a></li>
+       <li><a href="https://hipchat.com/" rel="nofollow">HipChat</a></li>
+       <li><a href="https://www.jostle.me/" rel="nofollow">Jostle</a></li>
+       <li><a href="https://trello.com/" rel="nofollow">Trello</a></li>
+       <li><a href="https://asana.com/" rel="nofollow">Asana</a></li>
+      </ul></li>
+     <li>Infrastructure as a Service 
+      <ul>
+       <li><a href="http://aws.amazon.com/" rel="nofollow">Amazon Web Services</a></li>
+       <li><a href="http://www.rackspace.com/" rel="nofollow">Rackspace</a></li>
+       <li><a href="http://www.cloudfoundry.com/" rel="nofollow">Cloud Foundry</a></li>
+       <li><a href="http://www.windowsazure.com/" rel="nofollow">Azure</a></li>
+       <li><a href="http://www.openstack.org/" rel="nofollow">OpenStack</a></li>
+      </ul></li>
+     <li>Virtualization Platforms 
+      <ul>
+       <li><a href="http://www.vmware.com/" rel="nofollow">VMware</a></li>
+       <li><a href="http://www.linux-kvm.org/page/Main_Page" rel="nofollow">KVM</a></li>
+       <li><a href="http://www.xenproject.org/" rel="nofollow">Xen</a></li>
+       <li><a href="https://www.virtualbox.org/" rel="nofollow">VirtualBox</a></li>
+       <li><a href="http://www.vagrantup.com/" rel="nofollow">Vagrant</a></li>
+      </ul></li>
+     <li>Containerization Tools 
+      <ul>
+       <li><a href="http://lxc.sourceforge.net/" rel="nofollow">LXC</a></li>
+       <li><a href="http://www.oracle.com/technetwork/server-storage/solaris/containers-169727.html" rel="nofollow">Solaris Containers</a></li>
+       <li><a href="http://www.docker.io/" rel="nofollow">Docker</a></li>
+      </ul></li>
+     <li>Configuration Management 
+      <ul>
+       <li><a href="http://puppetlabs.com/" rel="nofollow">Puppet</a>&nbsp;/&nbsp;<a href="http://docs.puppetlabs.com/mcollective/index.html" rel="nofollow">MCollective</a></li>
+       <li><a href="http://www.opscode.com/chef/" rel="nofollow">Chef</a></li>
+       <li><a href="http://www.ansibleworks.com/" rel="nofollow">Ansible</a></li>
+       <li><a href="http://cfengine.com/" rel="nofollow">CFEngine</a></li>
+       <li><a href="http://saltstack.com/community.html" rel="nofollow">SaltStack</a></li>
+       <li><a href="http://www.shrubbery.net/rancid/" rel="nofollow">RANCID</a></li>
+       <li><a href="https://juju.ubuntu.com/" rel="nofollow">Ubuntu Juju</a></li>
+      </ul></li>
+    </ul></td>
+   <td valign="top">
+    <ul>
+     <li>Continuous Integration, Delivery &amp; Release Management 
+      <ul>
+       <li><a href="https://circleci.com/" rel="nofollow">CircleCI</a></li>
+       <li><a href="https://travis-ci.org/" rel="nofollow">TravisCI</a></li>
+       <li><a href="http://launchdarkly.com/" rel="nofollow">LaunchDarkly</a></li>
+      </ul></li>
+     <li>Queues and Caches 
+      <ul>
+       <li><a href="http://activemq.apache.org/" rel="nofollow">ActiveMQ</a></li>
+       <li><a href="http://www.rabbitmq.com/" rel="nofollow">RabbitMQ</a></li>
+       <li><a href="http://memcached.org/" rel="nofollow">memcache</a></li>
+       <li><a href="https://www.varnish-cache.org/" rel="nofollow">varnish</a></li>
+       <li><a href="http://www.squid-cache.org/" rel="nofollow">Squid</a></li>
+      </ul></li>
+     <li>Logging 
+      <ul>
+       <li><a href="https://papertrailapp.com/" rel="nofollow">PaperTrail</a></li>
+       <li><a href="http://logstash.net/" rel="nofollow">Logstash</a></li>
+       <li><a href="http://www.loggly.com/" rel="nofollow">Loggly</a></li>
+       <li><a href="http://www.logentries.com/" rel="nofollow">Logentries</a></li>
+       <li><a href="http://www.splunk.com/" rel="nofollow">Splunk</a></li>
+       <li><a href="http://www.sumologic.com/" rel="nofollow">SumoLogic</a></li>
+      </ul></li>
+     <li>Monitoring, Alerting, and Trending 
+      <ul>
+       <li><a href="http://newrelic.com/" rel="nofollow">New Relic</a></li>
+       <li><a href="http://www.nagios.com/" rel="nofollow">Nagios</a></li>
+       <li><a href="https://www.icinga.org/" rel="nofollow">Icinga</a></li>
+       <li><a href="http://graphite.wikidot.com/" rel="nofollow">Graphite</a></li>
+       <li><a href="http://ganglia.info/" rel="nofollow">Ganglia</a></li>
+       <li><a href="http://www.cacti.net/" rel="nofollow">Cacti</a></li>
+       <li><a href="http://www.pagerduty.com/" rel="nofollow">PagerDuty</a></li>
+       <li><a href="http://sensuapp.org/" rel="nofollow">Sensu</a></li>
+      </ul></li>
+    </ul><p><em>Source&nbsp;<a href="http://newrelic.com/devops/toolset" rel="nofollow">New Relic</a>&nbsp;and&nbsp;Author’s Recs</em></p></td>
+  </tr>
+ </tbody>
+</table>
+<p pid="24">This is not an endorsement of one tool over another. &nbsp;DevOps is about harnessing a diverse software suite to meet your organization’s evolving needs.</p>
+<h3 pid="25"><strong>Use Cases</strong></h3>
+<p pid="26">A major cornerstone of DevOps 2.0 is the ability to control feature releases independently from your code deployments. &nbsp;Broadly speaking, it is the understanding that features do not need to be waterfall released into the wild, but that they can be controlled in a production context. &nbsp;With DevOps 2.0…</p>
+<ul>
+ <li><em>Designers</em>&nbsp;can conduct user testing by toggling experimental features on and off for test users</li>
+ <li><em>Sales</em>&nbsp;can bundle features into custom plans or perform product demos to individual customers</li>
+ <li><em>Marketing</em>&nbsp;can run beta programs to get testimonials and case studies even before a formal launch</li>
+ <li><em>Product team</em>&nbsp;can&nbsp;see features before they are release,&nbsp;<a href="https://dzone.com/articles/the-new-way-to-conduct-real-time-user-research" rel="nofollow">get real user feedback</a>, and continuously monitor product development</li>
+ <li><em>Developers</em>&nbsp;can&nbsp;<a href="http://blog.launchdarkly.com/feature-flag-driven-development/" rel="nofollow">feature flag</a>&nbsp;code to release it in logical chunks, mitigate risk, and roll back poorly performing features</li>
+ <li><em>System admins</em>&nbsp;can&nbsp;<a href="http://blog.launchdarkly.com/feature-flagging-to-mitigate-risk-in-database-migration/" rel="nofollow">perform database migrations</a>&nbsp;with mitigated risk</li>
+</ul>
+<h3 pid="27"><strong>Benefits</strong></h3>
+<p pid="28">Here are some of the&nbsp;<a href="http://launchdarkly.com/featureflags.html" rel="nofollow">benefits</a>&nbsp;of separating feature rollout from code deployment in a DevOps 2.0 world:</p>
+<ul>
+ <li>Release Code in Logical Chunks 
+  <ul>
+   <li>You can release incomplete features into production and keep them turned off. &nbsp;This allows you to release code in logical chunks, even if some of the features cannot be fully deployed.</li>
+  </ul></li>
+ <li>Risk Mitigation 
+  <ul>
+   <li>Turn off poorly performing features without redeploying.</li>
+  </ul></li>
+ <li>User Targeting 
+  <ul>
+   <li>Manage the visibility of features for particular users.</li>
+  </ul></li>
+ <li>Percentage Rollouts 
+  <ul>
+   <li>Incrementally release features to your users for&nbsp;<a href="https://dzone.com/articles/the-new-way-to-conduct-real-time-user-research" rel="nofollow">testing and feedback</a>. &nbsp;Assess infrastructure performance.</li>
+  </ul></li>
+ <li>Kill Switch 
+  <ul>
+   <li>Quickly turn off a poorly performing feature.</li>
+  </ul></li>
+ <li>Payment Plans 
+  <ul>
+   <li>Control subscriptions plans by bundling feature flags into a plan.</li>
+  </ul></li>
+ <li>A/B Testing of Functionality 
+  <ul>
+   <li>Run A/B tests&nbsp;of features to see which features perform better.</li>
+  </ul></li>
+ <li>Sunseting Features 
+  <ul>
+   <li>Cleanly sunset old, unused features.</li>
+  </ul></li>
+ <li>Opt In Beta 
+  <ul>
+   <li>Run beta programs on your live application by explicitly including the people you want to see a new feature.</li>
+  </ul></li>
+ <li>Paygates 
+  <ul>
+   <li>Control subscription plans by bundling features via&nbsp;<a href="http://martinfowler.com/articles/feature-toggles.html" rel="nofollow">flags or toggles</a>.</li>
+  </ul></li>
+ <li>Maintenance Mode 
+  <ul>
+   <li>Put portions (or your entire application) into&nbsp;<a href="http://blog.launchdarkly.com/how-launchdarkly-uses-feature-flags-for-rolling-maintenance-modes/" rel="nofollow">maintenance mode</a>.</li>
+  </ul></li>
+ <li>Newbie vs. Power User 
+  <ul>
+   <li>Release new feature for power users and maintain the status quo experience for new users.</li>
+  </ul></li>
+</ul>
+<p pid="29">In a broader context, DevOps 2.0 is a user-centered approach to development. &nbsp;Instead of releasing software and hoping it works, we can release software with the ability to adapt to consumer demands and expectations. &nbsp;If we launch a feature and no one likes it, then we can instantly roll it back. &nbsp;If we launch a feature to 1% of our user base and they love it, then we can roll it out to the rest.</p>
+<h3 pid="30"><strong>Caveats</strong></h3>
+<p pid="31">Of course, any time you grant non-technical team members access to any aspect of your application, there will be some inherent risk. &nbsp;Hence, one of the main purposes of DevOps 2.0 is to mitigate that risk through proper checks, permissions, and unencumbered collaboration.</p>
+<p pid="32">By regulating access to feature release controls, teams can place the responsibility of targeted feature visibility into the hands of non-technical members without the risk of having to modify the DB or deploy any changes to the codebase.</p>
+<p pid="33">This is not to say that you should give non-developers the ability to control feature rollouts and any aspect of the deployment process. &nbsp;It is to say, however, that DevOps 2.0 will be about empowering non-technical team members without compromising the integrity of the application.</p>
+<h2>Future of DevOps 2.0: User-Centered Deployments</h2>
+<p pid="35">In the coming years, we will likely see the emergence of tools specifically designed to coordinate the skillsets of both developers and non-developers, thereby taking the principles of&nbsp;<a href="http://www.usability.gov/what-and-why/user-centered-design.html" rel="nofollow">user-centered design</a>&nbsp;and applying them to a state of continuous delivery and release.</p>
+<p pid="36">DevOps, therefore, does not merely remain a way to deploy and maintain an application, it becomes a way to deliver software faster and with less risk. &nbsp;With the rise of continuous delivery, we will deploy software in ways that align with increasing&nbsp;<a href="https://dzone.com/articles/in-2016-can-devops-keep-pace-with-consumer-expecta" rel="nofollow">consumer expectations</a>:</p>
+<ul>
+ <ul>
+  <ul>
+   <li>Consumers want new features faster: months not years</li>
+   <li>Consumers want bugs fixed immediately: minutes not hours</li>
+   <li>Consumers want things to load instantly: milliseconds not seconds</li>
+  </ul>
+ </ul>
+</ul>
+<p pid="51"><img alt="DevOps 2.0 User Centered Deployments Feature flags to separate code deployment from feature rollout LaunchDarkly" class="fr-fin fr-dib" src="/storage/temp/2112155-devops2-ucd.jpg" title="DevOps 2.0 User Centered Deployments Feature flags to separate code deployment from feature rollout LaunchDarkly" width="808"></p>
+<p pid="38">A user-centered deployment, therefore, is a way to frame continuous delivery from the perspective of your product’s end-user. &nbsp;The way we release software becomes nearly as important as the software itself. &nbsp;It is a way to satiate increasing consumer expectations without compromising the integrity of your application. &nbsp;It also ushers in a new era where we harness continuous delivery to make our users’ lives better, not just a way to accelerate the development cycle.</p>
+                
+</div>
 
 <div class="mdl-layout__tab-panel" id="privacy">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
