@@ -158,25 +158,25 @@
                   var data = [
                         [//Session 1
                         {axis:"Culture",value:0.32},
-                        {axis:"Development",value:0.68},
-                        {axis:"Testing",value:0.89},
-                        {axis:"Deployment",value:0.47},
-                        {axis:"Recovery",value:0.22},
+                        {axis:"Development",value:0.28},
+                        {axis:"Testing",value:0.19},
+                        {axis:"Deployment",value:0.17},
+                        {axis:"Recovery",value:0.12},
                         {axis:"Security",value:0.02},
                         ],[//Session 2
-                        {axis:"Culture",value:0.57},
+                        {axis:"Culture",value:0.47},
                         {axis:"Development",value:0.66},
-                        {axis:"Testing",value:0.75},
-                        {axis:"Deployment",value:0.83},
+                        {axis:"Testing",value:0.30},
+                        {axis:"Deployment",value:0.29},
                         {axis:"Recovery",value:0.40},
-                        {axis:"Security",value:0.93},
+                        {axis:"Security",value:0.50},
                         ],[//Session 3
-                        {axis:"Culture",value:0.96},
-                        {axis:"Development",value:0.30},
-                        {axis:"Testing",value:0.40},
-                        {axis:"Deployment",value:0.54},
+                        {axis:"Culture",value:0.66},
+                        {axis:"Development",value:0.90},
+                        {axis:"Testing",value:0.80},
+                        {axis:"Deployment",value:0.77},
                         {axis:"Recovery",value:0.72},
-                        {axis:"Security",value:0.84},
+                        {axis:"Security",value:0.90},
                         ]
                       ];
                   //////////////////////////////////////////////////////////////
@@ -621,6 +621,7 @@ Be aware of practices bad actors can use like SQL injections, remote file inclus
   Continuous Compliance</li>
   <ul><li>
  Compliance as Code brings management, compliance, internal audit, the PMO and infosec to the table, together with development and operations. Compliance policies and rules and control workflows need to be defined upfront by all of these stakeholders working together. Management needs to understand how operational risks and other risks will be controlled and managed through the pipeline. </li></ul></ol>
+          <h4>Glossary of practices </h4><br/>
 <p><strong>Implement application-level protection against distributed denial of service (DDoS) attacks.</strong>&nbsp;OpenShift services are protected against DDos attacks at the network layer. However, OpenShift cannot protect against application-layer attacks, because it is difficult to distinguish between true user requests from malicious user requests. For more information on how to protect against application-layer DDoS attacks, see the "Protecting against DDoS" section of&nbsp;<a href="http://download.microsoft.com/download/C/A/3/CA3FC5C0-ECE0-4F87-BF4B-D74064A00846/OpenShiftNetworkSecurity_v3_Feb2015.pdf" data-linktype="external">Microsoft OpenShift Network Security</a>&nbsp;(PDF download).</p>
 <p><strong>Implement the principle of least privilege for access to the application's resources.</strong>&nbsp;The default for access to the application's resources should be as restrictive as possible. Grant higher level permissions on an approval basis. Granting overly permissive access to your application's resources by default can result in someone purposely or accidentally deleting resources. OpenShift provides&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/active-directory/role-based-access-built-in-roles/" data-linktype="absolute-path">role-based access control</a>&nbsp;to manage user privileges, but it's important to verify least privilege permissions for other resources that have their own permissions systems such as SQL Server.</p>
               </div>
