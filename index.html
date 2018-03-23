@@ -603,6 +603,20 @@
             <div class="mdl-cell mdl-cell--12-col">
               <h4>Security Advice</h4><p/>
                <em/>Great job! You scored highly on the use of advanced practices. Review the glossary below and checkout the Mastery section for more cutting-edge practices. </em>
+            <em>Things to look into:</em>
+<ol><li>Pre and Post compilation of code</li><ul><li>
+ Mitigate opportunities for code injection before or after builds
+ </li></ul>
+ <li>Static Code Analysis</li><ul><li>
+ Can help you avoid things like bad code or accidental credential inclusion</li></ul>
+ </li></ul>
+ <li>Run-time Analysis</li>
+ <ul><li>
+Be aware of practices bad actors can use like SQL injections, remote file inclusion and other vulnerabilities mentioned in the OWASP checklist</li></ul>
+ <li>
+  Continuous Compliance</li>
+  <ul><li>
+ Compliance as Code brings management, compliance, internal audit, the PMO and infosec to the table, together with development and operations. Compliance policies and rules and control workflows need to be defined upfront by all of these stakeholders working together. Management needs to understand how operational risks and other risks will be controlled and managed through the pipeline. </li></ul></ol>
 <p><strong>Implement application-level protection against distributed denial of service (DDoS) attacks.</strong>&nbsp;OpenShift services are protected against DDos attacks at the network layer. However, OpenShift cannot protect against application-layer attacks, because it is difficult to distinguish between true user requests from malicious user requests. For more information on how to protect against application-layer DDoS attacks, see the "Protecting against DDoS" section of&nbsp;<a href="http://download.microsoft.com/download/C/A/3/CA3FC5C0-ECE0-4F87-BF4B-D74064A00846/OpenShiftNetworkSecurity_v3_Feb2015.pdf" data-linktype="external">Microsoft OpenShift Network Security</a>&nbsp;(PDF download).</p>
 <p><strong>Implement the principle of least privilege for access to the application's resources.</strong>&nbsp;The default for access to the application's resources should be as restrictive as possible. Grant higher level permissions on an approval basis. Granting overly permissive access to your application's resources by default can result in someone purposely or accidentally deleting resources. OpenShift provides&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/active-directory/role-based-access-built-in-roles/" data-linktype="absolute-path">role-based access control</a>&nbsp;to manage user privileges, but it's important to verify least privilege permissions for other resources that have their own permissions systems such as SQL Server.</p>
               </div>
