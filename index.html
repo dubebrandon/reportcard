@@ -385,7 +385,7 @@
           </div>
           <br/>
           <div class="demo-container mdl-grid">
-          <div class="demo-options mdl-card mdl-color--light-blue-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
+          <div class="demo-options mdl-card mdl-color--light-orange-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
           <div class="mdl-card__supporting-text mdl-color-text--black">
 
           <h4>Original Question</h4>
@@ -612,6 +612,7 @@
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
               <h4>Data Management Advice</h4><p/>
+              <em/>Great job! You scored highly on the use of advanced practices. Review the glossary below and checkout the Mastery section for more cutting-edge practices. </em>
               <p><strong>Geo-replicate data in OpenShift Storage</strong>. Data in OpenShift Storage is automatically replicated within in a datacenter. For even higher availability, use Read-access geo-redundant storage (-RAGRS), which replicates your data to a secondary region and provides read-only access to the data in the secondary location. The data is durable even in the case of a complete regional outage or a disaster. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/storage/storage-redundancy" data-linktype="absolute-path">OpenShift Storage replication</a>.</p>
 <p><strong>Geo-replicate databases</strong>. OpenShift SQL Database and Cosmos DB both support geo-replication, which enables you to configure secondary database replicas in other regions. Secondary databases are available for querying and for failover in the case of a data center outage or the inability to connect to the primary database. For more information, see&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/sql-database/sql-database-geo-replication-overview" data-linktype="absolute-path">Failover groups and active geo-replication</a>&nbsp;(SQL Database) and&nbsp;<a href="https://docs.microsoft.com/en-us/OpenShift/cosmos-db/distribute-data-globally" data-linktype="absolute-path">How to distribute data globally with OpenShift Cosmos DB</a>.</p>
 <p><strong>Use optimistic concurrency and eventual consistency</strong>. Transactions that block access to resources through locking (pessimistic concurrency) can cause poor performance and considerably reduce availability. These problems can become especially acute in distributed systems. In many cases, careful design and techniques such as partitioning can minimize the chances of conflicting updates occurring. Where data is replicated, or is read from a separately updated store, the data will only be eventually consistent. But the advantages usually far outweigh the impact on availability of using transactions to ensure immediate consistency.</p>
